@@ -1,0 +1,3242 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-09-28T01:57:51Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "way",
+  "id": 68173637,
+  "bounds": {
+    "minlat": -11.9845886,
+    "minlon": -77.0068392,
+    "maxlat": -11.9842061,
+    "maxlon": -77.0066235
+  },
+  "geometry": [
+    { "lat": -11.9842061, "lon": -77.0066235 },
+    { "lat": -11.9842748, "lon": -77.0066910 },
+    { "lat": -11.9843349, "lon": -77.0067427 },
+    { "lat": -11.9845886, "lon": -77.0068392 }
+  ],
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 68540177,
+  "bounds": {
+    "minlat": -11.9795703,
+    "minlon": -77.0047319,
+    "maxlat": -11.9721288,
+    "maxlon": -76.9964300
+  },
+  "geometry": [
+    { "lat": -11.9795703, "lon": -77.0047319 },
+    { "lat": -11.9795660, "lon": -77.0046556 },
+    { "lat": -11.9795372, "lon": -77.0045939 },
+    { "lat": -11.9794821, "lon": -77.0045402 },
+    { "lat": -11.9791266, "lon": -77.0043581 },
+    { "lat": -11.9788261, "lon": -77.0041701 },
+    { "lat": -11.9785263, "lon": -77.0039484 },
+    { "lat": -11.9782587, "lon": -77.0037607 },
+    { "lat": -11.9781788, "lon": -77.0037051 },
+    { "lat": -11.9772788, "lon": -77.0030609 },
+    { "lat": -11.9770693, "lon": -77.0028687 },
+    { "lat": -11.9769171, "lon": -77.0027118 },
+    { "lat": -11.9765632, "lon": -77.0022636 },
+    { "lat": -11.9762590, "lon": -77.0018459 },
+    { "lat": -11.9761036, "lon": -77.0016326 },
+    { "lat": -11.9759820, "lon": -77.0014655 },
+    { "lat": -11.9751633, "lon": -77.0003253 },
+    { "lat": -11.9750864, "lon": -77.0002182 },
+    { "lat": -11.9750132, "lon": -77.0001181 },
+    { "lat": -11.9749573, "lon": -77.0000403 },
+    { "lat": -11.9741193, "lon": -76.9988752 },
+    { "lat": -11.9735852, "lon": -76.9981116 },
+    { "lat": -11.9735446, "lon": -76.9980534 },
+    { "lat": -11.9729628, "lon": -76.9972141 },
+    { "lat": -11.9724948, "lon": -76.9966008 },
+    { "lat": -11.9724209, "lon": -76.9965139 },
+    { "lat": -11.9723391, "lon": -76.9964300 },
+    { "lat": -11.9721288, "lon": -76.9964474 }
+  ],
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "40",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 68552041,
+  "bounds": {
+    "minlat": -11.9720400,
+    "minlon": -76.9967315,
+    "maxlat": -11.9687382,
+    "maxlon": -76.9941817
+  },
+  "geometry": [
+    { "lat": -11.9687382, "lon": -76.9941817 },
+    { "lat": -11.9702850, "lon": -76.9953094 },
+    { "lat": -11.9715310, "lon": -76.9962458 },
+    { "lat": -11.9718733, "lon": -76.9965669 },
+    { "lat": -11.9719412, "lon": -76.9966316 },
+    { "lat": -11.9720400, "lon": -76.9967315 }
+  ],
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "maxspeed": "40",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 115838952,
+  "bounds": {
+    "minlat": -11.9846829,
+    "minlon": -77.0065441,
+    "maxlat": -11.9795703,
+    "maxlon": -77.0047319
+  },
+  "geometry": [
+    { "lat": -11.9846829, "lon": -77.0065441 },
+    { "lat": -11.9846248, "lon": -77.0065241 },
+    { "lat": -11.9844503, "lon": -77.0064641 },
+    { "lat": -11.9829766, "lon": -77.0060094 },
+    { "lat": -11.9812752, "lon": -77.0054244 },
+    { "lat": -11.9812413, "lon": -77.0054126 },
+    { "lat": -11.9808803, "lon": -77.0052869 },
+    { "lat": -11.9804707, "lon": -77.0051453 },
+    { "lat": -11.9802771, "lon": -77.0050709 },
+    { "lat": -11.9800350, "lon": -77.0049566 },
+    { "lat": -11.9798866, "lon": -77.0048848 },
+    { "lat": -11.9795703, "lon": -77.0047319 }
+  ],
+  "tags": {
+    "alt_name": "Avenida Proceres de la Independencia",
+    "highway": "primary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "sidewalk": "right",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 116992008,
+  "bounds": {
+    "minlat": -11.9681812,
+    "minlon": -77.0044167,
+    "maxlat": -11.9606007,
+    "maxlon": -76.9997012
+  },
+  "geometry": [
+    { "lat": -11.9606007, "lon": -76.9997012 },
+    { "lat": -11.9607423, "lon": -76.9997599 },
+    { "lat": -11.9609867, "lon": -76.9998606 },
+    { "lat": -11.9610528, "lon": -76.9998890 },
+    { "lat": -11.9611184, "lon": -76.9999163 },
+    { "lat": -11.9613594, "lon": -77.0000241 },
+    { "lat": -11.9616595, "lon": -77.0001548 },
+    { "lat": -11.9619994, "lon": -77.0002964 },
+    { "lat": -11.9621265, "lon": -77.0003683 },
+    { "lat": -11.9621841, "lon": -77.0004058 },
+    { "lat": -11.9626069, "lon": -77.0006837 },
+    { "lat": -11.9627156, "lon": -77.0007545 },
+    { "lat": -11.9628243, "lon": -77.0008253 },
+    { "lat": -11.9628690, "lon": -77.0008544 },
+    { "lat": -11.9630002, "lon": -77.0009405 },
+    { "lat": -11.9632628, "lon": -77.0011158 },
+    { "lat": -11.9641200, "lon": -77.0016532 },
+    { "lat": -11.9644605, "lon": -77.0018711 },
+    { "lat": -11.9645287, "lon": -77.0019147 },
+    { "lat": -11.9647418, "lon": -77.0020279 },
+    { "lat": -11.9648739, "lon": -77.0020975 },
+    { "lat": -11.9649908, "lon": -77.0021591 },
+    { "lat": -11.9653582, "lon": -77.0023380 },
+    { "lat": -11.9659318, "lon": -77.0026173 },
+    { "lat": -11.9661000, "lon": -77.0027244 },
+    { "lat": -11.9661585, "lon": -77.0027631 },
+    { "lat": -11.9663112, "lon": -77.0028819 },
+    { "lat": -11.9663587, "lon": -77.0029212 },
+    { "lat": -11.9663849, "lon": -77.0029434 },
+    { "lat": -11.9666479, "lon": -77.0031379 },
+    { "lat": -11.9668839, "lon": -77.0033126 },
+    { "lat": -11.9670179, "lon": -77.0034170 },
+    { "lat": -11.9671260, "lon": -77.0035001 },
+    { "lat": -11.9671480, "lon": -77.0035177 },
+    { "lat": -11.9672180, "lon": -77.0035724 },
+    { "lat": -11.9675444, "lon": -77.0038275 },
+    { "lat": -11.9675882, "lon": -77.0038601 },
+    { "lat": -11.9679747, "lon": -77.0041472 },
+    { "lat": -11.9680407, "lon": -77.0041962 },
+    { "lat": -11.9681208, "lon": -77.0042911 },
+    { "lat": -11.9681812, "lon": -77.0044167 }
+  ],
+  "tags": {
+    "highway": "primary",
+    "maxspeed": "45",
+    "name": "Avenida Canto Grande",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 116992050,
+  "bounds": {
+    "minlat": -11.9568707,
+    "minlon": -76.9981960,
+    "maxlat": -11.9564831,
+    "maxlon": -76.9980225
+  },
+  "geometry": [
+    { "lat": -11.9564831, "lon": -76.9981960 },
+    { "lat": -11.9565775, "lon": -76.9981845 },
+    { "lat": -11.9566084, "lon": -76.9981791 },
+    { "lat": -11.9566607, "lon": -76.9981485 },
+    { "lat": -11.9567050, "lon": -76.9981131 },
+    { "lat": -11.9567495, "lon": -76.9980743 },
+    { "lat": -11.9568116, "lon": -76.9980386 },
+    { "lat": -11.9568707, "lon": -76.9980225 }
+  ],
+  "tags": {
+    "highway": "primary",
+    "name": "Avenida Canto Grande",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 119757355,
+  "bounds": {
+    "minlat": -11.9429792,
+    "minlon": -76.9826571,
+    "maxlat": -11.9406323,
+    "maxlon": -76.9810242
+  },
+  "geometry": [
+    { "lat": -11.9429792, "lon": -76.9826571 },
+    { "lat": -11.9426581, "lon": -76.9824337 },
+    { "lat": -11.9423747, "lon": -76.9822365 },
+    { "lat": -11.9420840, "lon": -76.9820343 },
+    { "lat": -11.9417987, "lon": -76.9818358 },
+    { "lat": -11.9415119, "lon": -76.9816362 },
+    { "lat": -11.9412375, "lon": -76.9814453 },
+    { "lat": -11.9409519, "lon": -76.9812466 },
+    { "lat": -11.9406323, "lon": -76.9810242 }
+  ],
+  "tags": {
+    "highway": "residential",
+    "name": "Canto Grande",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 184262055,
+  "bounds": {
+    "minlat": -12.0031357,
+    "minlon": -77.0172413,
+    "maxlat": -12.0027023,
+    "maxlon": -77.0167369
+  },
+  "geometry": [
+    { "lat": -12.0027023, "lon": -77.0167369 },
+    { "lat": -12.0028468, "lon": -77.0168205 },
+    { "lat": -12.0028839, "lon": -77.0168428 },
+    { "lat": -12.0029395, "lon": -77.0168762 },
+    { "lat": -12.0030144, "lon": -77.0169487 },
+    { "lat": -12.0030649, "lon": -77.0170239 },
+    { "lat": -12.0031057, "lon": -77.0171131 },
+    { "lat": -12.0031357, "lon": -77.0172413 }
+  ],
+  "tags": {
+    "highway": "residential",
+    "name": "Avenida Antigua Canto Grande",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 184267200,
+  "bounds": {
+    "minlat": -12.0093250,
+    "minlon": -77.0170747,
+    "maxlat": -12.0041222,
+    "maxlon": -77.0150129
+  },
+  "geometry": [
+    { "lat": -12.0041222, "lon": -77.0158183 },
+    { "lat": -12.0042680, "lon": -77.0156450 },
+    { "lat": -12.0046831, "lon": -77.0151007 },
+    { "lat": -12.0047389, "lon": -77.0150502 },
+    { "lat": -12.0048051, "lon": -77.0150246 },
+    { "lat": -12.0048668, "lon": -77.0150129 },
+    { "lat": -12.0049555, "lon": -77.0150186 },
+    { "lat": -12.0050266, "lon": -77.0150479 },
+    { "lat": -12.0051134, "lon": -77.0150993 },
+    { "lat": -12.0052802, "lon": -77.0152114 },
+    { "lat": -12.0054058, "lon": -77.0152884 },
+    { "lat": -12.0055177, "lon": -77.0153678 },
+    { "lat": -12.0055534, "lon": -77.0153885 },
+    { "lat": -12.0056342, "lon": -77.0154355 },
+    { "lat": -12.0056695, "lon": -77.0154484 },
+    { "lat": -12.0057621, "lon": -77.0154822 },
+    { "lat": -12.0058488, "lon": -77.0155149 },
+    { "lat": -12.0059471, "lon": -77.0155499 },
+    { "lat": -12.0060293, "lon": -77.0155990 },
+    { "lat": -12.0060909, "lon": -77.0156480 },
+    { "lat": -12.0061617, "lon": -77.0157321 },
+    { "lat": -12.0062074, "lon": -77.0157858 },
+    { "lat": -12.0062919, "lon": -77.0158605 },
+    { "lat": -12.0063901, "lon": -77.0159305 },
+    { "lat": -12.0064678, "lon": -77.0159656 },
+    { "lat": -12.0065454, "lon": -77.0160076 },
+    { "lat": -12.0065888, "lon": -77.0160309 },
+    { "lat": -12.0066848, "lon": -77.0160800 },
+    { "lat": -12.0067716, "lon": -77.0161360 },
+    { "lat": -12.0068490, "lon": -77.0161799 },
+    { "lat": -12.0068983, "lon": -77.0162100 },
+    { "lat": -12.0069357, "lon": -77.0162560 },
+    { "lat": -12.0069862, "lon": -77.0163485 },
+    { "lat": -12.0070411, "lon": -77.0164512 },
+    { "lat": -12.0071004, "lon": -77.0165493 },
+    { "lat": -12.0071804, "lon": -77.0166521 },
+    { "lat": -12.0072476, "lon": -77.0167071 },
+    { "lat": -12.0072717, "lon": -77.0167268 },
+    { "lat": -12.0073745, "lon": -77.0168015 },
+    { "lat": -12.0074567, "lon": -77.0168552 },
+    { "lat": -12.0075300, "lon": -77.0168911 },
+    { "lat": -12.0075664, "lon": -77.0169089 },
+    { "lat": -12.0076563, "lon": -77.0169552 },
+    { "lat": -12.0077567, "lon": -77.0170027 },
+    { "lat": -12.0078176, "lon": -77.0170256 },
+    { "lat": -12.0078730, "lon": -77.0170464 },
+    { "lat": -12.0080169, "lon": -77.0170733 },
+    { "lat": -12.0080525, "lon": -77.0170731 },
+    { "lat": -12.0080910, "lon": -77.0170746 },
+    { "lat": -12.0081469, "lon": -77.0170747 },
+    { "lat": -12.0082481, "lon": -77.0170491 },
+    { "lat": -12.0083902, "lon": -77.0169944 },
+    { "lat": -12.0085015, "lon": -77.0169548 },
+    { "lat": -12.0086770, "lon": -77.0168695 },
+    { "lat": -12.0087799, "lon": -77.0168194 },
+    { "lat": -12.0089543, "lon": -77.0167289 },
+    { "lat": -12.0089739, "lon": -77.0167151 },
+    { "lat": -12.0090177, "lon": -77.0166842 },
+    { "lat": -12.0091072, "lon": -77.0166222 },
+    { "lat": -12.0092463, "lon": -77.0165259 },
+    { "lat": -12.0093250, "lon": -77.0164714 }
+  ],
+  "tags": {
+    "highway": "tertiary",
+    "lanes": "2",
+    "maxspeed": "30",
+    "name": "Avenida Canto Grande",
+    "name:en": "Canto Grande Avenue",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 184626420,
+  "bounds": {
+    "minlat": -11.9919753,
+    "minlon": -77.0153906,
+    "maxlat": -11.9905486,
+    "maxlon": -77.0151670
+  },
+  "geometry": [
+    { "lat": -11.9905486, "lon": -77.0153906 },
+    { "lat": -11.9912505, "lon": -77.0152793 },
+    { "lat": -11.9917009, "lon": -77.0152078 },
+    { "lat": -11.9917504, "lon": -77.0151999 },
+    { "lat": -11.9918937, "lon": -77.0151772 },
+    { "lat": -11.9919753, "lon": -77.0151670 }
+  ],
+  "tags": {
+    "highway": "tertiary",
+    "lane_markings": "no",
+    "name": "Avenida Antigua Canto Grande",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 186174908,
+  "bounds": {
+    "minlat": -11.9787708,
+    "minlon": -77.0108485,
+    "maxlat": -11.9784640,
+    "maxlon": -77.0103635
+  },
+  "geometry": [
+    { "lat": -11.9784640, "lon": -77.0108485 },
+    { "lat": -11.9787210, "lon": -77.0104422 },
+    { "lat": -11.9787708, "lon": -77.0103635 }
+  ],
+  "tags": {
+    "highway": "service",
+    "name": "Pasaje Canto Grande",
+    "service": "alley"
+  }
+},
+{
+  "type": "way",
+  "id": 187195954,
+  "bounds": {
+    "minlat": -11.9648345,
+    "minlon": -76.9915247,
+    "maxlat": -11.9643571,
+    "maxlon": -76.9912039
+  },
+  "geometry": [
+    { "lat": -11.9643571, "lon": -76.9912039 },
+    { "lat": -11.9646415, "lon": -76.9913994 },
+    { "lat": -11.9648345, "lon": -76.9915247 }
+  ],
+  "tags": {
+    "highway": "residential",
+    "lanes": "2",
+    "maxspeed": "40",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 187195973,
+  "bounds": {
+    "minlat": -11.9687882,
+    "minlon": -76.9938586,
+    "maxlat": -11.9588738,
+    "maxlon": -76.9866524
+  },
+  "geometry": [
+    { "lat": -11.9687882, "lon": -76.9938586 },
+    { "lat": -11.9687624, "lon": -76.9937642 },
+    { "lat": -11.9687474, "lon": -76.9937142 },
+    { "lat": -11.9679566, "lon": -76.9931194 },
+    { "lat": -11.9675329, "lon": -76.9928354 },
+    { "lat": -11.9674060, "lon": -76.9927435 },
+    { "lat": -11.9671936, "lon": -76.9925898 },
+    { "lat": -11.9659248, "lon": -76.9916535 },
+    { "lat": -11.9656163, "lon": -76.9914172 },
+    { "lat": -11.9647638, "lon": -76.9907983 },
+    { "lat": -11.9634767, "lon": -76.9898483 },
+    { "lat": -11.9630277, "lon": -76.9895194 },
+    { "lat": -11.9618860, "lon": -76.9887088 },
+    { "lat": -11.9610447, "lon": -76.9881221 },
+    { "lat": -11.9601610, "lon": -76.9875249 },
+    { "lat": -11.9599971, "lon": -76.9874119 },
+    { "lat": -11.9596748, "lon": -76.9871887 },
+    { "lat": -11.9591131, "lon": -76.9868089 },
+    { "lat": -11.9590319, "lon": -76.9867521 },
+    { "lat": -11.9589617, "lon": -76.9867076 },
+    { "lat": -11.9588738, "lon": -76.9866524 }
+  ],
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "40",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 187195974,
+  "bounds": {
+    "minlat": -11.9648345,
+    "minlon": -76.9915247,
+    "maxlat": -11.9588240,
+    "maxlon": -76.9871016
+  },
+  "geometry": [
+    { "lat": -11.9588240, "lon": -76.9871016 },
+    { "lat": -11.9588806, "lon": -76.9871414 },
+    { "lat": -11.9594579, "lon": -76.9875473 },
+    { "lat": -11.9599493, "lon": -76.9878928 },
+    { "lat": -11.9605563, "lon": -76.9883196 },
+    { "lat": -11.9607992, "lon": -76.9884903 },
+    { "lat": -11.9627819, "lon": -76.9898846 },
+    { "lat": -11.9637001, "lon": -76.9905726 },
+    { "lat": -11.9644245, "lon": -76.9911037 },
+    { "lat": -11.9645356, "lon": -76.9911857 },
+    { "lat": -11.9646942, "lon": -76.9913581 },
+    { "lat": -11.9648345, "lon": -76.9915247 }
+  ],
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "maxspeed": "40",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 284925929,
+  "bounds": {
+    "minlat": -11.9475320,
+    "minlon": -76.9849780,
+    "maxlat": -11.9434393,
+    "maxlon": -76.9821606
+  },
+  "geometry": [
+    { "lat": -11.9475320, "lon": -76.9849780 },
+    { "lat": -11.9474874, "lon": -76.9849473 },
+    { "lat": -11.9472959, "lon": -76.9848155 },
+    { "lat": -11.9466215, "lon": -76.9843747 },
+    { "lat": -11.9461420, "lon": -76.9840348 },
+    { "lat": -11.9454810, "lon": -76.9835664 },
+    { "lat": -11.9454598, "lon": -76.9835518 },
+    { "lat": -11.9446337, "lon": -76.9829836 },
+    { "lat": -11.9437639, "lon": -76.9823842 },
+    { "lat": -11.9435993, "lon": -76.9822708 },
+    { "lat": -11.9435005, "lon": -76.9822027 },
+    { "lat": -11.9434393, "lon": -76.9821606 }
+  ],
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 284925935,
+  "bounds": {
+    "minlat": -11.9434257,
+    "minlon": -76.9819713,
+    "maxlat": -11.9410852,
+    "maxlon": -76.9803495
+  },
+  "geometry": [
+    { "lat": -11.9434257, "lon": -76.9819713 },
+    { "lat": -11.9433866, "lon": -76.9819397 },
+    { "lat": -11.9422236, "lon": -76.9811467 },
+    { "lat": -11.9413351, "lon": -76.9805132 },
+    { "lat": -11.9410852, "lon": -76.9803495 }
+  ],
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 314360423,
+  "bounds": {
+    "minlat": -11.9822194,
+    "minlon": -77.0131188,
+    "maxlat": -11.9808415,
+    "maxlon": -77.0123697
+  },
+  "geometry": [
+    { "lat": -11.9822194, "lon": -77.0131166 },
+    { "lat": -11.9821287, "lon": -77.0131188 },
+    { "lat": -11.9820563, "lon": -77.0131152 },
+    { "lat": -11.9819464, "lon": -77.0130709 },
+    { "lat": -11.9819075, "lon": -77.0130491 },
+    { "lat": -11.9818183, "lon": -77.0129989 },
+    { "lat": -11.9817867, "lon": -77.0129812 },
+    { "lat": -11.9813409, "lon": -77.0126841 },
+    { "lat": -11.9811436, "lon": -77.0125599 },
+    { "lat": -11.9809130, "lon": -77.0124147 },
+    { "lat": -11.9808415, "lon": -77.0123697 }
+  ],
+  "tags": {
+    "highway": "primary",
+    "lane_markings": "no",
+    "lit": "yes",
+    "maxspeed": "45",
+    "name": "Avenida Canto Grande",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 314360424,
+  "bounds": {
+    "minlat": -11.9476950,
+    "minlon": -76.9849038,
+    "maxlat": -11.9476174,
+    "maxlon": -76.9848524
+  },
+  "geometry": [
+    { "lat": -11.9476950, "lon": -76.9849038 },
+    { "lat": -11.9476174, "lon": -76.9848524 }
+  ],
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 314360439,
+  "bounds": {
+    "minlat": -11.9367907,
+    "minlon": -76.9712564,
+    "maxlat": -11.9345857,
+    "maxlon": -76.9697189
+  },
+  "geometry": [
+    { "lat": -11.9367907, "lon": -76.9712564 },
+    { "lat": -11.9367417, "lon": -76.9712223 },
+    { "lat": -11.9357121, "lon": -76.9705057 },
+    { "lat": -11.9356357, "lon": -76.9704526 },
+    { "lat": -11.9345857, "lon": -76.9697189 }
+  ],
+  "tags": {
+    "alt_name": "Avenida Proceres Del La Independencia",
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 314360443,
+  "bounds": {
+    "minlat": -11.9515088,
+    "minlon": -76.9874839,
+    "maxlat": -11.9476950,
+    "maxlon": -76.9849038
+  },
+  "geometry": [
+    { "lat": -11.9515088, "lon": -76.9874839 },
+    { "lat": -11.9513765, "lon": -76.9874404 },
+    { "lat": -11.9512843, "lon": -76.9873861 },
+    { "lat": -11.9511925, "lon": -76.9873255 },
+    { "lat": -11.9511014, "lon": -76.9872661 },
+    { "lat": -11.9509051, "lon": -76.9871382 },
+    { "lat": -11.9508787, "lon": -76.9871228 },
+    { "lat": -11.9507360, "lon": -76.9870240 },
+    { "lat": -11.9506768, "lon": -76.9869830 },
+    { "lat": -11.9503285, "lon": -76.9867417 },
+    { "lat": -11.9489352, "lon": -76.9857726 },
+    { "lat": -11.9478211, "lon": -76.9849866 },
+    { "lat": -11.9477458, "lon": -76.9849385 },
+    { "lat": -11.9476950, "lon": -76.9849038 }
+  ],
+  "tags": {
+    "alt_name": "Avenida Proceres Del La Independencia",
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 314361436,
+  "bounds": {
+    "minlat": -11.9848321,
+    "minlon": -77.0069385,
+    "maxlat": -11.9846831,
+    "maxlon": -77.0068775
+  },
+  "geometry": [
+    { "lat": -11.9846831, "lon": -77.0068775 },
+    { "lat": -11.9848321, "lon": -77.0069385 }
+  ],
+  "tags": {
+    "foot": "no",
+    "highway": "secondary",
+    "lane_markings": "no",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 314361439,
+  "bounds": {
+    "minlat": -11.9587061,
+    "minlon": -76.9876803,
+    "maxlat": -11.9507756,
+    "maxlon": -76.9855279
+  },
+  "geometry": [
+    { "lat": -11.9507756, "lon": -76.9872651 },
+    { "lat": -11.9510122, "lon": -76.9874300 },
+    { "lat": -11.9511675, "lon": -76.9875265 },
+    { "lat": -11.9512856, "lon": -76.9875850 },
+    { "lat": -11.9514150, "lon": -76.9876333 },
+    { "lat": -11.9515765, "lon": -76.9876652 },
+    { "lat": -11.9517045, "lon": -76.9876760 },
+    { "lat": -11.9517554, "lon": -76.9876803 },
+    { "lat": -11.9519077, "lon": -76.9876665 },
+    { "lat": -11.9520458, "lon": -76.9876349 },
+    { "lat": -11.9523094, "lon": -76.9875188 },
+    { "lat": -11.9529552, "lon": -76.9871940 },
+    { "lat": -11.9543855, "lon": -76.9865024 },
+    { "lat": -11.9553715, "lon": -76.9860256 },
+    { "lat": -11.9558442, "lon": -76.9857971 },
+    { "lat": -11.9561338, "lon": -76.9856571 },
+    { "lat": -11.9561832, "lon": -76.9856332 },
+    { "lat": -11.9563492, "lon": -76.9855590 },
+    { "lat": -11.9564856, "lon": -76.9855279 },
+    { "lat": -11.9566310, "lon": -76.9855323 },
+    { "lat": -11.9567598, "lon": -76.9855691 },
+    { "lat": -11.9568939, "lon": -76.9856484 },
+    { "lat": -11.9575250, "lon": -76.9860787 },
+    { "lat": -11.9577568, "lon": -76.9862254 },
+    { "lat": -11.9585301, "lon": -76.9867650 },
+    { "lat": -11.9587061, "lon": -76.9868940 }
+  ],
+  "tags": {
+    "highway": "primary",
+    "maxspeed": "50",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 314556404,
+  "bounds": {
+    "minlat": -11.9589164,
+    "minlon": -76.9868317,
+    "maxlat": -11.9588047,
+    "maxlon": -76.9867546
+  },
+  "geometry": [
+    { "lat": -11.9589164, "lon": -76.9868317 },
+    { "lat": -11.9588638, "lon": -76.9867968 },
+    { "lat": -11.9588047, "lon": -76.9867546 }
+  ],
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 314744224,
+  "bounds": {
+    "minlat": -11.9338693,
+    "minlon": -76.9694530,
+    "maxlat": -11.9331739,
+    "maxlon": -76.9689820
+  },
+  "geometry": [
+    { "lat": -11.9331739, "lon": -76.9689820 },
+    { "lat": -11.9338693, "lon": -76.9694530 }
+  ],
+  "tags": {
+    "alt_name": "Avenida Proceres Del La Independencia",
+    "highway": "primary",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 314794532,
+  "bounds": {
+    "minlat": -11.9722243,
+    "minlon": -76.9965408,
+    "maxlat": -11.9721288,
+    "maxlon": -76.9964474
+  },
+  "geometry": [
+    { "lat": -11.9722243, "lon": -76.9965408 },
+    { "lat": -11.9721288, "lon": -76.9964474 }
+  ],
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 315202474,
+  "bounds": {
+    "minlat": -11.9388036,
+    "minlon": -76.9725208,
+    "maxlat": -11.9380369,
+    "maxlon": -76.9719441
+  },
+  "geometry": [
+    { "lat": -11.9388036, "lon": -76.9725208 },
+    { "lat": -11.9380369, "lon": -76.9719441 }
+  ],
+  "tags": {
+    "highway": "secondary",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 315203784,
+  "bounds": {
+    "minlat": -11.9379557,
+    "minlon": -76.9720582,
+    "maxlat": -11.9367907,
+    "maxlon": -76.9712564
+  },
+  "geometry": [
+    { "lat": -11.9379557, "lon": -76.9720582 },
+    { "lat": -11.9378972, "lon": -76.9720206 },
+    { "lat": -11.9374125, "lon": -76.9716785 },
+    { "lat": -11.9369429, "lon": -76.9713594 },
+    { "lat": -11.9368613, "lon": -76.9713051 },
+    { "lat": -11.9367907, "lon": -76.9712564 }
+  ],
+  "tags": {
+    "alt_name": "Avenida Proceres Del La Independencia",
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 315236385,
+  "bounds": {
+    "minlat": -11.9848601,
+    "minlon": -77.0068612,
+    "maxlat": -11.9847089,
+    "maxlon": -77.0068094
+  },
+  "geometry": [
+    { "lat": -11.9847089, "lon": -77.0068094 },
+    { "lat": -11.9848601, "lon": -77.0068612 }
+  ],
+  "tags": {
+    "foot": "no",
+    "highway": "primary",
+    "lane_markings": "no",
+    "maxspeed": "50",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 315560909,
+  "bounds": {
+    "minlat": -11.9565494,
+    "minlon": -76.9977773,
+    "maxlat": -11.9564170,
+    "maxlon": -76.9977168
+  },
+  "geometry": [
+    { "lat": -11.9565494, "lon": -76.9977168 },
+    { "lat": -11.9564170, "lon": -76.9977773 }
+  ],
+  "tags": {
+    "highway": "primary",
+    "name": "Avenida Canto Grande",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 316471801,
+  "bounds": {
+    "minlat": -11.9681470,
+    "minlon": -77.0041014,
+    "maxlat": -11.9565494,
+    "maxlon": -76.9977168
+  },
+  "geometry": [
+    { "lat": -11.9681470, "lon": -77.0041014 },
+    { "lat": -11.9681102, "lon": -77.0040746 },
+    { "lat": -11.9675727, "lon": -77.0036678 },
+    { "lat": -11.9671919, "lon": -77.0033873 },
+    { "lat": -11.9669554, "lon": -77.0032175 },
+    { "lat": -11.9667283, "lon": -77.0030406 },
+    { "lat": -11.9664951, "lon": -77.0028668 },
+    { "lat": -11.9664379, "lon": -77.0028260 },
+    { "lat": -11.9663896, "lon": -77.0027890 },
+    { "lat": -11.9661529, "lon": -77.0026167 },
+    { "lat": -11.9659970, "lon": -77.0025207 },
+    { "lat": -11.9658259, "lon": -77.0024281 },
+    { "lat": -11.9656789, "lon": -77.0023643 },
+    { "lat": -11.9649140, "lon": -77.0020088 },
+    { "lat": -11.9647790, "lon": -77.0019379 },
+    { "lat": -11.9646988, "lon": -77.0018992 },
+    { "lat": -11.9645830, "lon": -77.0018395 },
+    { "lat": -11.9643527, "lon": -77.0016867 },
+    { "lat": -11.9631626, "lon": -77.0009083 },
+    { "lat": -11.9630624, "lon": -77.0008422 },
+    { "lat": -11.9628895, "lon": -77.0007276 },
+    { "lat": -11.9622879, "lon": -77.0003223 },
+    { "lat": -11.9620522, "lon": -77.0001818 },
+    { "lat": -11.9612717, "lon": -76.9998502 },
+    { "lat": -11.9611822, "lon": -76.9998138 },
+    { "lat": -11.9609343, "lon": -76.9997173 },
+    { "lat": -11.9607213, "lon": -76.9996283 },
+    { "lat": -11.9605311, "lon": -76.9995502 },
+    { "lat": -11.9604369, "lon": -76.9995100 },
+    { "lat": -11.9603135, "lon": -76.9994558 },
+    { "lat": -11.9598552, "lon": -76.9992564 },
+    { "lat": -11.9596271, "lon": -76.9991509 },
+    { "lat": -11.9594714, "lon": -76.9990789 },
+    { "lat": -11.9591781, "lon": -76.9989346 },
+    { "lat": -11.9584437, "lon": -76.9985920 },
+    { "lat": -11.9579848, "lon": -76.9983779 },
+    { "lat": -11.9579205, "lon": -76.9983479 },
+    { "lat": -11.9578659, "lon": -76.9983255 },
+    { "lat": -11.9574155, "lon": -76.9981082 },
+    { "lat": -11.9566807, "lon": -76.9977515 },
+    { "lat": -11.9565494, "lon": -76.9977168 }
+  ],
+  "tags": {
+    "highway": "primary",
+    "maxspeed": "45",
+    "name": "Avenida Canto Grande",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 316471805,
+  "bounds": {
+    "minlat": -11.9768166,
+    "minlon": -77.0098028,
+    "maxlat": -11.9684356,
+    "maxlon": -77.0043323
+  },
+  "geometry": [
+    { "lat": -11.9768166, "lon": -77.0098028 },
+    { "lat": -11.9753358, "lon": -77.0088522 },
+    { "lat": -11.9749438, "lon": -77.0086101 },
+    { "lat": -11.9748435, "lon": -77.0085440 },
+    { "lat": -11.9737204, "lon": -77.0078271 },
+    { "lat": -11.9736021, "lon": -77.0077516 },
+    { "lat": -11.9734953, "lon": -77.0076815 },
+    { "lat": -11.9732092, "lon": -77.0075032 },
+    { "lat": -11.9730924, "lon": -77.0074284 },
+    { "lat": -11.9726910, "lon": -77.0071680 },
+    { "lat": -11.9725318, "lon": -77.0070678 },
+    { "lat": -11.9724960, "lon": -77.0070452 },
+    { "lat": -11.9723934, "lon": -77.0069775 },
+    { "lat": -11.9722747, "lon": -77.0069020 },
+    { "lat": -11.9718562, "lon": -77.0066306 },
+    { "lat": -11.9706425, "lon": -77.0058481 },
+    { "lat": -11.9705066, "lon": -77.0057640 },
+    { "lat": -11.9704368, "lon": -77.0057230 },
+    { "lat": -11.9703884, "lon": -77.0056937 },
+    { "lat": -11.9700075, "lon": -77.0054550 },
+    { "lat": -11.9699304, "lon": -77.0054041 },
+    { "lat": -11.9694871, "lon": -77.0051157 },
+    { "lat": -11.9694433, "lon": -77.0050863 },
+    { "lat": -11.9693728, "lon": -77.0050365 },
+    { "lat": -11.9693402, "lon": -77.0050131 },
+    { "lat": -11.9686678, "lon": -77.0045057 },
+    { "lat": -11.9685973, "lon": -77.0044578 },
+    { "lat": -11.9684356, "lon": -77.0043323 }
+  ],
+  "tags": {
+    "highway": "primary",
+    "maxspeed": "45",
+    "name": "Avenida Canto Grande",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 316471806,
+  "bounds": {
+    "minlat": -11.9795703,
+    "minlon": -77.0047319,
+    "maxlat": -11.9763249,
+    "maxlon": -77.0021747
+  },
+  "geometry": [
+    { "lat": -11.9795703, "lon": -77.0047319 },
+    { "lat": -11.9793461, "lon": -77.0046235 },
+    { "lat": -11.9790792, "lon": -77.0044945 },
+    { "lat": -11.9788704, "lon": -77.0043763 },
+    { "lat": -11.9785889, "lon": -77.0041986 },
+    { "lat": -11.9781074, "lon": -77.0038432 },
+    { "lat": -11.9772389, "lon": -77.0032131 },
+    { "lat": -11.9770683, "lon": -77.0030785 },
+    { "lat": -11.9770301, "lon": -77.0030457 },
+    { "lat": -11.9769402, "lon": -77.0029684 },
+    { "lat": -11.9768215, "lon": -77.0028341 },
+    { "lat": -11.9766323, "lon": -77.0025866 },
+    { "lat": -11.9763249, "lon": -77.0021747 }
+  ],
+  "tags": {
+    "bicycle": "no",
+    "foot": "no",
+    "highway": "primary",
+    "horse": "no",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 317310792,
+  "bounds": {
+    "minlat": -11.9595061,
+    "minlon": -76.9874724,
+    "maxlat": -11.9587061,
+    "maxlon": -76.9868940
+  },
+  "geometry": [
+    { "lat": -11.9587061, "lon": -76.9868940 },
+    { "lat": -11.9588698, "lon": -76.9870079 },
+    { "lat": -11.9589371, "lon": -76.9870569 },
+    { "lat": -11.9593927, "lon": -76.9873936 },
+    { "lat": -11.9595061, "lon": -76.9874724 }
+  ],
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 319649659,
+  "bounds": {
+    "minlat": -11.9742649,
+    "minlon": -76.9996242,
+    "maxlat": -11.9686466,
+    "maxlon": -76.9939865
+  },
+  "geometry": [
+    { "lat": -11.9686466, "lon": -76.9939865 },
+    { "lat": -11.9688085, "lon": -76.9940787 },
+    { "lat": -11.9688900, "lon": -76.9941348 },
+    { "lat": -11.9703842, "lon": -76.9952404 },
+    { "lat": -11.9713041, "lon": -76.9959078 },
+    { "lat": -11.9715014, "lon": -76.9960539 },
+    { "lat": -11.9718062, "lon": -76.9963174 },
+    { "lat": -11.9719695, "lon": -76.9964746 },
+    { "lat": -11.9720343, "lon": -76.9965407 },
+    { "lat": -11.9721307, "lon": -76.9966366 },
+    { "lat": -11.9721976, "lon": -76.9967093 },
+    { "lat": -11.9722752, "lon": -76.9967936 },
+    { "lat": -11.9724412, "lon": -76.9969835 },
+    { "lat": -11.9726628, "lon": -76.9972776 },
+    { "lat": -11.9733347, "lon": -76.9982561 },
+    { "lat": -11.9738417, "lon": -76.9990129 },
+    { "lat": -11.9742649, "lon": -76.9996242 }
+  ],
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "sidewalk": "separate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 319662806,
+  "bounds": {
+    "minlat": -11.9366897,
+    "minlon": -76.9714283,
+    "maxlat": -11.9355309,
+    "maxlon": -76.9706125
+  },
+  "geometry": [
+    { "lat": -11.9355309, "lon": -76.9706125 },
+    { "lat": -11.9356073, "lon": -76.9706696 },
+    { "lat": -11.9365254, "lon": -76.9713096 },
+    { "lat": -11.9366382, "lon": -76.9713911 },
+    { "lat": -11.9366897, "lon": -76.9714283 }
+  ],
+  "tags": {
+    "alt_name": "Avenida Proceres Del La Independencia",
+    "highway": "primary",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 319803738,
+  "bounds": {
+    "minlat": -11.9684356,
+    "minlon": -77.0043323,
+    "maxlat": -11.9681470,
+    "maxlon": -77.0041014
+  },
+  "geometry": [
+    { "lat": -11.9684356, "lon": -77.0043323 },
+    { "lat": -11.9683813, "lon": -77.0042924 },
+    { "lat": -11.9683278, "lon": -77.0042475 },
+    { "lat": -11.9682585, "lon": -77.0041861 },
+    { "lat": -11.9681470, "lon": -77.0041014 }
+  ],
+  "tags": {
+    "highway": "primary",
+    "maxspeed": "45",
+    "name": "Avenida Canto Grande",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 320474145,
+  "bounds": {
+    "minlat": -11.9387400,
+    "minlon": -76.9736606,
+    "maxlat": -11.9366897,
+    "maxlon": -76.9714283
+  },
+  "geometry": [
+    { "lat": -11.9366897, "lon": -76.9714283 },
+    { "lat": -11.9367100, "lon": -76.9714421 },
+    { "lat": -11.9367565, "lon": -76.9714738 },
+    { "lat": -11.9377903, "lon": -76.9721912 },
+    { "lat": -11.9378404, "lon": -76.9722260 },
+    { "lat": -11.9379214, "lon": -76.9722829 },
+    { "lat": -11.9386009, "lon": -76.9727359 },
+    { "lat": -11.9386411, "lon": -76.9727723 },
+    { "lat": -11.9386695, "lon": -76.9728030 },
+    { "lat": -11.9386909, "lon": -76.9728345 },
+    { "lat": -11.9387123, "lon": -76.9728774 },
+    { "lat": -11.9387281, "lon": -76.9729148 },
+    { "lat": -11.9387361, "lon": -76.9729591 },
+    { "lat": -11.9387400, "lon": -76.9730024 },
+    { "lat": -11.9387330, "lon": -76.9730647 },
+    { "lat": -11.9387268, "lon": -76.9731229 },
+    { "lat": -11.9387113, "lon": -76.9731880 },
+    { "lat": -11.9385869, "lon": -76.9735490 },
+    { "lat": -11.9385463, "lon": -76.9736606 }
+  ],
+  "tags": {
+    "alt_name": "Avenida Proceres Del La Independencia",
+    "highway": "primary",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 320517684,
+  "bounds": {
+    "minlat": -11.9434393,
+    "minlon": -76.9821606,
+    "maxlat": -11.9410019,
+    "maxlon": -76.9804716
+  },
+  "geometry": [
+    { "lat": -11.9410019, "lon": -76.9804716 },
+    { "lat": -11.9424620, "lon": -76.9814863 },
+    { "lat": -11.9431504, "lon": -76.9819618 },
+    { "lat": -11.9433071, "lon": -76.9820701 },
+    { "lat": -11.9433559, "lon": -76.9821038 },
+    { "lat": -11.9434393, "lon": -76.9821606 }
+  ],
+  "tags": {
+    "highway": "primary",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 320517686,
+  "bounds": {
+    "minlat": -11.9410019,
+    "minlon": -76.9804716,
+    "maxlat": -11.9392525,
+    "maxlon": -76.9785218
+  },
+  "geometry": [
+    { "lat": -11.9392525, "lon": -76.9785218 },
+    { "lat": -11.9393293, "lon": -76.9787403 },
+    { "lat": -11.9393534, "lon": -76.9787990 },
+    { "lat": -11.9393741, "lon": -76.9788496 },
+    { "lat": -11.9394466, "lon": -76.9790022 },
+    { "lat": -11.9395214, "lon": -76.9791438 },
+    { "lat": -11.9396211, "lon": -76.9793055 },
+    { "lat": -11.9396783, "lon": -76.9793819 },
+    { "lat": -11.9397277, "lon": -76.9794479 },
+    { "lat": -11.9398334, "lon": -76.9795807 },
+    { "lat": -11.9399420, "lon": -76.9797140 },
+    { "lat": -11.9400286, "lon": -76.9798027 },
+    { "lat": -11.9401659, "lon": -76.9799062 },
+    { "lat": -11.9405601, "lon": -76.9801686 },
+    { "lat": -11.9406231, "lon": -76.9802118 },
+    { "lat": -11.9408595, "lon": -76.9803739 },
+    { "lat": -11.9410019, "lon": -76.9804716 }
+  ],
+  "tags": {
+    "highway": "primary",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 320523917,
+  "bounds": {
+    "minlat": -11.9719592,
+    "minlon": -77.0069979,
+    "maxlat": -11.9681812,
+    "maxlon": -77.0044167
+  },
+  "geometry": [
+    { "lat": -11.9681812, "lon": -77.0044167 },
+    { "lat": -11.9681919, "lon": -77.0044371 },
+    { "lat": -11.9682095, "lon": -77.0044604 },
+    { "lat": -11.9684374, "lon": -77.0046573 },
+    { "lat": -11.9685169, "lon": -77.0047185 },
+    { "lat": -11.9689479, "lon": -77.0050503 },
+    { "lat": -11.9690332, "lon": -77.0051119 },
+    { "lat": -11.9690617, "lon": -77.0051321 },
+    { "lat": -11.9693815, "lon": -77.0053582 },
+    { "lat": -11.9697955, "lon": -77.0056317 },
+    { "lat": -11.9698524, "lon": -77.0056714 },
+    { "lat": -11.9699976, "lon": -77.0057656 },
+    { "lat": -11.9701304, "lon": -77.0058445 },
+    { "lat": -11.9701702, "lon": -77.0058684 },
+    { "lat": -11.9702410, "lon": -77.0059095 },
+    { "lat": -11.9708343, "lon": -77.0062873 },
+    { "lat": -11.9715034, "lon": -77.0067179 },
+    { "lat": -11.9718286, "lon": -77.0069260 },
+    { "lat": -11.9718785, "lon": -77.0069593 },
+    { "lat": -11.9719592, "lon": -77.0069979 }
+  ],
+  "tags": {
+    "highway": "primary",
+    "maxspeed": "45",
+    "name": "Avenida Canto Grande",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 320528115,
+  "bounds": {
+    "minlat": -11.9344817,
+    "minlon": -76.9696431,
+    "maxlat": -11.9332644,
+    "maxlon": -76.9688159
+  },
+  "geometry": [
+    { "lat": -11.9344817, "lon": -76.9696431 },
+    { "lat": -11.9332644, "lon": -76.9688159 }
+  ],
+  "tags": {
+    "alt_name": "Avenida Proceres Del La Independencia",
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 320595936,
+  "bounds": {
+    "minlat": -11.9795063,
+    "minlon": -77.0048930,
+    "maxlat": -11.9720400,
+    "maxlon": -76.9967315
+  },
+  "geometry": [
+    { "lat": -11.9720400, "lon": -76.9967315 },
+    { "lat": -11.9721023, "lon": -76.9967903 },
+    { "lat": -11.9724053, "lon": -76.9971588 },
+    { "lat": -11.9725664, "lon": -76.9973733 },
+    { "lat": -11.9732442, "lon": -76.9983286 },
+    { "lat": -11.9734069, "lon": -76.9985579 },
+    { "lat": -11.9739890, "lon": -76.9993907 },
+    { "lat": -11.9742821, "lon": -76.9997999 },
+    { "lat": -11.9744202, "lon": -76.9999927 },
+    { "lat": -11.9746173, "lon": -77.0002679 },
+    { "lat": -11.9746945, "lon": -77.0003757 },
+    { "lat": -11.9747554, "lon": -77.0004607 },
+    { "lat": -11.9747852, "lon": -77.0005024 },
+    { "lat": -11.9748355, "lon": -77.0005736 },
+    { "lat": -11.9755128, "lon": -77.0015337 },
+    { "lat": -11.9755420, "lon": -77.0015745 },
+    { "lat": -11.9759340, "lon": -77.0021230 },
+    { "lat": -11.9761697, "lon": -77.0024536 },
+    { "lat": -11.9762871, "lon": -77.0026210 },
+    { "lat": -11.9765053, "lon": -77.0028873 },
+    { "lat": -11.9766956, "lon": -77.0030962 },
+    { "lat": -11.9768639, "lon": -77.0032598 },
+    { "lat": -11.9770539, "lon": -77.0034306 },
+    { "lat": -11.9779488, "lon": -77.0040719 },
+    { "lat": -11.9783095, "lon": -77.0043130 },
+    { "lat": -11.9786476, "lon": -77.0045269 },
+    { "lat": -11.9786636, "lon": -77.0045352 },
+    { "lat": -11.9790837, "lon": -77.0047528 },
+    { "lat": -11.9793601, "lon": -77.0048930 },
+    { "lat": -11.9794341, "lon": -77.0048840 },
+    { "lat": -11.9795063, "lon": -77.0048581 }
+  ],
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "40",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 323714543,
+  "bounds": {
+    "minlat": -11.9588047,
+    "minlon": -76.9875120,
+    "maxlat": -11.9515088,
+    "maxlon": -76.9853485
+  },
+  "geometry": [
+    { "lat": -11.9588047, "lon": -76.9867546 },
+    { "lat": -11.9587241, "lon": -76.9866973 },
+    { "lat": -11.9586279, "lon": -76.9866302 },
+    { "lat": -11.9578529, "lon": -76.9860847 },
+    { "lat": -11.9577311, "lon": -76.9859990 },
+    { "lat": -11.9576685, "lon": -76.9859528 },
+    { "lat": -11.9569639, "lon": -76.9854857 },
+    { "lat": -11.9568259, "lon": -76.9854104 },
+    { "lat": -11.9566671, "lon": -76.9853623 },
+    { "lat": -11.9564921, "lon": -76.9853485 },
+    { "lat": -11.9563376, "lon": -76.9853705 },
+    { "lat": -11.9562002, "lon": -76.9854177 },
+    { "lat": -11.9560105, "lon": -76.9855144 },
+    { "lat": -11.9556191, "lon": -76.9857088 },
+    { "lat": -11.9549682, "lon": -76.9860320 },
+    { "lat": -11.9537163, "lon": -76.9866330 },
+    { "lat": -11.9528140, "lon": -76.9870925 },
+    { "lat": -11.9527175, "lon": -76.9871331 },
+    { "lat": -11.9526413, "lon": -76.9871651 },
+    { "lat": -11.9522349, "lon": -76.9873645 },
+    { "lat": -11.9520216, "lon": -76.9874613 },
+    { "lat": -11.9519059, "lon": -76.9874950 },
+    { "lat": -11.9518164, "lon": -76.9875096 },
+    { "lat": -11.9517085, "lon": -76.9875120 },
+    { "lat": -11.9515921, "lon": -76.9875009 },
+    { "lat": -11.9515088, "lon": -76.9874839 }
+  ],
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 327657901,
+  "bounds": {
+    "minlat": -11.9476174,
+    "minlon": -76.9848524,
+    "maxlat": -11.9434257,
+    "maxlon": -76.9819713
+  },
+  "geometry": [
+    { "lat": -11.9476174, "lon": -76.9848524 },
+    { "lat": -11.9475489, "lon": -76.9848128 },
+    { "lat": -11.9462563, "lon": -76.9839242 },
+    { "lat": -11.9455467, "lon": -76.9834326 },
+    { "lat": -11.9444838, "lon": -76.9826972 },
+    { "lat": -11.9437578, "lon": -76.9821915 },
+    { "lat": -11.9435786, "lon": -76.9820769 },
+    { "lat": -11.9435080, "lon": -76.9820316 },
+    { "lat": -11.9434257, "lon": -76.9819713 }
+  ],
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 328620541,
+  "bounds": {
+    "minlat": -11.9410852,
+    "minlon": -76.9803495,
+    "maxlat": -11.9383931,
+    "maxlon": -76.9737046
+  },
+  "geometry": [
+    { "lat": -11.9410852, "lon": -76.9803495 },
+    { "lat": -11.9402441, "lon": -76.9797620 },
+    { "lat": -11.9401871, "lon": -76.9797154 },
+    { "lat": -11.9400839, "lon": -76.9796131 },
+    { "lat": -11.9400057, "lon": -76.9795208 },
+    { "lat": -11.9398645, "lon": -76.9793468 },
+    { "lat": -11.9397740, "lon": -76.9792244 },
+    { "lat": -11.9397016, "lon": -76.9791168 },
+    { "lat": -11.9395589, "lon": -76.9788514 },
+    { "lat": -11.9394524, "lon": -76.9785878 },
+    { "lat": -11.9393812, "lon": -76.9783593 },
+    { "lat": -11.9389801, "lon": -76.9769479 },
+    { "lat": -11.9389425, "lon": -76.9767984 },
+    { "lat": -11.9385167, "lon": -76.9753372 },
+    { "lat": -11.9384556, "lon": -76.9751197 },
+    { "lat": -11.9384182, "lon": -76.9749552 },
+    { "lat": -11.9383985, "lon": -76.9748111 },
+    { "lat": -11.9383931, "lon": -76.9746902 },
+    { "lat": -11.9383987, "lon": -76.9745874 },
+    { "lat": -11.9384086, "lon": -76.9745140 },
+    { "lat": -11.9384329, "lon": -76.9743940 },
+    { "lat": -11.9385933, "lon": -76.9739220 },
+    { "lat": -11.9386633, "lon": -76.9737046 }
+  ],
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 330424991,
+  "bounds": {
+    "minlat": -11.9722064,
+    "minlon": -77.0070304,
+    "maxlat": -11.9719592,
+    "maxlon": -77.0069979
+  },
+  "geometry": [
+    { "lat": -11.9719592, "lon": -77.0069979 },
+    { "lat": -11.9720700, "lon": -77.0070174 },
+    { "lat": -11.9722064, "lon": -77.0070304 }
+  ],
+  "tags": {
+    "highway": "primary",
+    "maxspeed": "45",
+    "name": "Avenida Canto Grande",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 330424995,
+  "bounds": {
+    "minlat": -11.9822083,
+    "minlon": -77.0132495,
+    "maxlat": -11.9722064,
+    "maxlon": -77.0070304
+  },
+  "geometry": [
+    { "lat": -11.9722064, "lon": -77.0070304 },
+    { "lat": -11.9722890, "lon": -77.0070545 },
+    { "lat": -11.9724345, "lon": -77.0071468 },
+    { "lat": -11.9724811, "lon": -77.0071764 },
+    { "lat": -11.9726459, "lon": -77.0072809 },
+    { "lat": -11.9733090, "lon": -77.0077058 },
+    { "lat": -11.9734322, "lon": -77.0077847 },
+    { "lat": -11.9735334, "lon": -77.0078487 },
+    { "lat": -11.9743362, "lon": -77.0083594 },
+    { "lat": -11.9746789, "lon": -77.0085774 },
+    { "lat": -11.9752719, "lon": -77.0089545 },
+    { "lat": -11.9766754, "lon": -77.0098441 },
+    { "lat": -11.9767402, "lon": -77.0098855 },
+    { "lat": -11.9771808, "lon": -77.0101609 },
+    { "lat": -11.9773800, "lon": -77.0102863 },
+    { "lat": -11.9780159, "lon": -77.0106877 },
+    { "lat": -11.9780440, "lon": -77.0107054 },
+    { "lat": -11.9789593, "lon": -77.0112947 },
+    { "lat": -11.9791339, "lon": -77.0114076 },
+    { "lat": -11.9794482, "lon": -77.0116055 },
+    { "lat": -11.9800482, "lon": -77.0119824 },
+    { "lat": -11.9801317, "lon": -77.0120353 },
+    { "lat": -11.9807040, "lon": -77.0123981 },
+    { "lat": -11.9807859, "lon": -77.0124500 },
+    { "lat": -11.9808755, "lon": -77.0125082 },
+    { "lat": -11.9816377, "lon": -77.0130029 },
+    { "lat": -11.9816687, "lon": -77.0130230 },
+    { "lat": -11.9817546, "lon": -77.0130787 },
+    { "lat": -11.9818633, "lon": -77.0131471 },
+    { "lat": -11.9819792, "lon": -77.0131928 },
+    { "lat": -11.9821078, "lon": -77.0132262 },
+    { "lat": -11.9822083, "lon": -77.0132495 }
+  ],
+  "tags": {
+    "highway": "primary",
+    "lane_markings": "no",
+    "lit": "yes",
+    "maxspeed": "45",
+    "name": "Avenida Canto Grande",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 332736172,
+  "bounds": {
+    "minlat": -11.9606007,
+    "minlon": -76.9997012,
+    "maxlat": -11.9568707,
+    "maxlon": -76.9980212
+  },
+  "geometry": [
+    { "lat": -11.9568707, "lon": -76.9980225 },
+    { "lat": -11.9569245, "lon": -76.9980212 },
+    { "lat": -11.9569901, "lon": -76.9980413 },
+    { "lat": -11.9572144, "lon": -76.9981391 },
+    { "lat": -11.9574663, "lon": -76.9982612 },
+    { "lat": -11.9577039, "lon": -76.9983825 },
+    { "lat": -11.9577563, "lon": -76.9984101 },
+    { "lat": -11.9578160, "lon": -76.9984369 },
+    { "lat": -11.9578702, "lon": -76.9984614 },
+    { "lat": -11.9580699, "lon": -76.9985590 },
+    { "lat": -11.9581702, "lon": -76.9986079 },
+    { "lat": -11.9584029, "lon": -76.9987114 },
+    { "lat": -11.9584416, "lon": -76.9987281 },
+    { "lat": -11.9586909, "lon": -76.9988428 },
+    { "lat": -11.9588116, "lon": -76.9988991 },
+    { "lat": -11.9589455, "lon": -76.9989608 },
+    { "lat": -11.9591619, "lon": -76.9990574 },
+    { "lat": -11.9593761, "lon": -76.9991575 },
+    { "lat": -11.9594797, "lon": -76.9991975 },
+    { "lat": -11.9595875, "lon": -76.9992451 },
+    { "lat": -11.9596639, "lon": -76.9992808 },
+    { "lat": -11.9598149, "lon": -76.9993459 },
+    { "lat": -11.9599593, "lon": -76.9994137 },
+    { "lat": -11.9602611, "lon": -76.9995542 },
+    { "lat": -11.9606007, "lon": -76.9997012 }
+  ],
+  "tags": {
+    "highway": "primary",
+    "name": "Avenida Canto Grande",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 334692198,
+  "bounds": {
+    "minlat": -11.9392525,
+    "minlon": -76.9785218,
+    "maxlat": -11.9382426,
+    "maxlon": -76.9736606
+  },
+  "geometry": [
+    { "lat": -11.9385463, "lon": -76.9736606 },
+    { "lat": -11.9382746, "lon": -76.9745052 },
+    { "lat": -11.9382437, "lon": -76.9746754 },
+    { "lat": -11.9382426, "lon": -76.9748116 },
+    { "lat": -11.9382624, "lon": -76.9749336 },
+    { "lat": -11.9384704, "lon": -76.9757082 },
+    { "lat": -11.9386684, "lon": -76.9764454 },
+    { "lat": -11.9387562, "lon": -76.9767726 },
+    { "lat": -11.9390396, "lon": -76.9777622 },
+    { "lat": -11.9392525, "lon": -76.9785218 }
+  ],
+  "tags": {
+    "highway": "primary",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 334694015,
+  "bounds": {
+    "minlat": -11.9387908,
+    "minlon": -76.9737046,
+    "maxlat": -11.9386633,
+    "maxlon": -76.9733611
+  },
+  "geometry": [
+    { "lat": -11.9386633, "lon": -76.9737046 },
+    { "lat": -11.9387345, "lon": -76.9735129 },
+    { "lat": -11.9387908, "lon": -76.9733611 }
+  ],
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 334694016,
+  "bounds": {
+    "minlat": -11.9388650,
+    "minlon": -76.9731751,
+    "maxlat": -11.9379557,
+    "maxlon": -76.9720582
+  },
+  "geometry": [
+    { "lat": -11.9388445, "lon": -76.9731751 },
+    { "lat": -11.9388605, "lon": -76.9730941 },
+    { "lat": -11.9388650, "lon": -76.9729943 },
+    { "lat": -11.9388610, "lon": -76.9729226 },
+    { "lat": -11.9388499, "lon": -76.9728660 },
+    { "lat": -11.9388208, "lon": -76.9727801 },
+    { "lat": -11.9387847, "lon": -76.9727123 },
+    { "lat": -11.9387466, "lon": -76.9726512 },
+    { "lat": -11.9387051, "lon": -76.9726020 },
+    { "lat": -11.9386457, "lon": -76.9725458 },
+    { "lat": -11.9385878, "lon": -76.9724979 },
+    { "lat": -11.9380350, "lon": -76.9721094 },
+    { "lat": -11.9379557, "lon": -76.9720582 }
+  ],
+  "tags": {
+    "alt_name": "Avenida Proceres Del La Independencia",
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 336860037,
+  "bounds": {
+    "minlat": -11.9355309,
+    "minlon": -76.9706125,
+    "maxlat": -11.9343637,
+    "maxlon": -76.9698072
+  },
+  "geometry": [
+    { "lat": -11.9343637, "lon": -76.9698072 },
+    { "lat": -11.9355309, "lon": -76.9706125 }
+  ],
+  "tags": {
+    "alt_name": "Avenida Proceres Del La Independencia",
+    "highway": "primary",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 338913942,
+  "bounds": {
+    "minlat": -11.9808415,
+    "minlon": -77.0123697,
+    "maxlat": -11.9797810,
+    "maxlon": -77.0116826
+  },
+  "geometry": [
+    { "lat": -11.9808415, "lon": -77.0123697 },
+    { "lat": -11.9797810, "lon": -77.0116826 }
+  ],
+  "tags": {
+    "highway": "primary",
+    "maxspeed": "45",
+    "name": "Avenida Canto Grande",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 339429576,
+  "bounds": {
+    "minlat": -11.9721288,
+    "minlon": -76.9964474,
+    "maxlat": -11.9688886,
+    "maxlon": -76.9939457
+  },
+  "geometry": [
+    { "lat": -11.9721288, "lon": -76.9964474 },
+    { "lat": -11.9720082, "lon": -76.9963174 },
+    { "lat": -11.9717168, "lon": -76.9960447 },
+    { "lat": -11.9714272, "lon": -76.9958163 },
+    { "lat": -11.9708826, "lon": -76.9954149 },
+    { "lat": -11.9704767, "lon": -76.9951224 },
+    { "lat": -11.9701179, "lon": -76.9948597 },
+    { "lat": -11.9690217, "lon": -76.9940534 },
+    { "lat": -11.9689811, "lon": -76.9940221 },
+    { "lat": -11.9688886, "lon": -76.9939457 }
+  ],
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 344175967,
+  "bounds": {
+    "minlat": -11.9688886,
+    "minlon": -76.9939457,
+    "maxlat": -11.9609658,
+    "maxlon": -76.9882327
+  },
+  "geometry": [
+    { "lat": -11.9688886, "lon": -76.9939457 },
+    { "lat": -11.9687882, "lon": -76.9938586 },
+    { "lat": -11.9687196, "lon": -76.9938075 },
+    { "lat": -11.9684183, "lon": -76.9935624 },
+    { "lat": -11.9679116, "lon": -76.9931742 },
+    { "lat": -11.9677017, "lon": -76.9930266 },
+    { "lat": -11.9674904, "lon": -76.9928895 },
+    { "lat": -11.9671522, "lon": -76.9926524 },
+    { "lat": -11.9670690, "lon": -76.9925976 },
+    { "lat": -11.9669708, "lon": -76.9925336 },
+    { "lat": -11.9663164, "lon": -76.9920662 },
+    { "lat": -11.9658637, "lon": -76.9917351 },
+    { "lat": -11.9650629, "lon": -76.9911602 },
+    { "lat": -11.9646989, "lon": -76.9908987 },
+    { "lat": -11.9641273, "lon": -76.9904876 },
+    { "lat": -11.9633939, "lon": -76.9899607 },
+    { "lat": -11.9630875, "lon": -76.9897461 },
+    { "lat": -11.9629403, "lon": -76.9896425 },
+    { "lat": -11.9619844, "lon": -76.9889624 },
+    { "lat": -11.9618024, "lon": -76.9888393 },
+    { "lat": -11.9617434, "lon": -76.9887969 },
+    { "lat": -11.9613958, "lon": -76.9885251 },
+    { "lat": -11.9612602, "lon": -76.9884244 },
+    { "lat": -11.9609658, "lon": -76.9882327 }
+  ],
+  "tags": {
+    "bicycle": "no",
+    "foot": "no",
+    "highway": "primary",
+    "horse": "no",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 344918657,
+  "bounds": {
+    "minlat": -11.9507756,
+    "minlon": -76.9872651,
+    "maxlat": -11.9476095,
+    "maxlon": -76.9850313
+  },
+  "geometry": [
+    { "lat": -11.9507756, "lon": -76.9872651 },
+    { "lat": -11.9506434, "lon": -76.9871560 },
+    { "lat": -11.9503859, "lon": -76.9869790 },
+    { "lat": -11.9496573, "lon": -76.9864632 },
+    { "lat": -11.9476095, "lon": -76.9850313 }
+  ],
+  "tags": {
+    "alt_name": "Avenida Proceres Del La Independencia",
+    "highway": "primary",
+    "maxspeed": "50",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 344918659,
+  "bounds": {
+    "minlat": -11.9476095,
+    "minlon": -76.9850313,
+    "maxlat": -11.9475320,
+    "maxlon": -76.9849780
+  },
+  "geometry": [
+    { "lat": -11.9476095, "lon": -76.9850313 },
+    { "lat": -11.9475320, "lon": -76.9849780 }
+  ],
+  "tags": {
+    "highway": "primary",
+    "maxspeed": "50",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 346410410,
+  "bounds": {
+    "minlat": -11.9797810,
+    "minlon": -77.0116826,
+    "maxlat": -11.9768166,
+    "maxlon": -77.0098028
+  },
+  "geometry": [
+    { "lat": -11.9797810, "lon": -77.0116826 },
+    { "lat": -11.9793170, "lon": -77.0113942 },
+    { "lat": -11.9791867, "lon": -77.0113112 },
+    { "lat": -11.9784640, "lon": -77.0108485 },
+    { "lat": -11.9776766, "lon": -77.0103468 },
+    { "lat": -11.9774387, "lon": -77.0101951 },
+    { "lat": -11.9768971, "lon": -77.0098540 },
+    { "lat": -11.9768166, "lon": -77.0098028 }
+  ],
+  "tags": {
+    "highway": "primary",
+    "maxspeed": "45",
+    "name": "Avenida Canto Grande",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 370097541,
+  "bounds": {
+    "minlat": -11.9385841,
+    "minlon": -76.9742085,
+    "maxlat": -11.9321716,
+    "maxlon": -76.9684687
+  },
+  "geometry": [
+    { "lat": -11.9321716, "lon": -76.9684687 },
+    { "lat": -11.9330817, "lon": -76.9691143 },
+    { "lat": -11.9342637, "lon": -76.9699535 },
+    { "lat": -11.9343490, "lon": -76.9700115 },
+    { "lat": -11.9345077, "lon": -76.9701262 },
+    { "lat": -11.9354267, "lon": -76.9707747 },
+    { "lat": -11.9360492, "lon": -76.9712134 },
+    { "lat": -11.9365408, "lon": -76.9715584 },
+    { "lat": -11.9365878, "lon": -76.9715914 },
+    { "lat": -11.9366497, "lon": -76.9716340 },
+    { "lat": -11.9377042, "lon": -76.9723591 },
+    { "lat": -11.9377410, "lon": -76.9723852 },
+    { "lat": -11.9378237, "lon": -76.9724392 },
+    { "lat": -11.9384490, "lon": -76.9728695 },
+    { "lat": -11.9385269, "lon": -76.9729772 },
+    { "lat": -11.9385727, "lon": -76.9731013 },
+    { "lat": -11.9385841, "lon": -76.9731950 },
+    { "lat": -11.9385635, "lon": -76.9733027 },
+    { "lat": -11.9385429, "lon": -76.9733940 },
+    { "lat": -11.9385020, "lon": -76.9734901 },
+    { "lat": -11.9383151, "lon": -76.9737257 },
+    { "lat": -11.9382063, "lon": -76.9738630 },
+    { "lat": -11.9379805, "lon": -76.9741349 },
+    { "lat": -11.9379266, "lon": -76.9742085 }
+  ],
+  "tags": {
+    "alt_name": "Avenida Proceres Del La Independencia",
+    "highway": "secondary",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 370097583,
+  "bounds": {
+    "minlat": -11.9433600,
+    "minlon": -76.9822813,
+    "maxlat": -11.9379266,
+    "maxlon": -76.9742085
+  },
+  "geometry": [
+    { "lat": -11.9379266, "lon": -76.9742085 },
+    { "lat": -11.9379458, "lon": -76.9743045 },
+    { "lat": -11.9379668, "lon": -76.9744179 },
+    { "lat": -11.9379830, "lon": -76.9744960 },
+    { "lat": -11.9383335, "lon": -76.9757518 },
+    { "lat": -11.9386343, "lon": -76.9767868 },
+    { "lat": -11.9389271, "lon": -76.9777842 },
+    { "lat": -11.9391327, "lon": -76.9785617 },
+    { "lat": -11.9394240, "lon": -76.9792445 },
+    { "lat": -11.9396439, "lon": -76.9795677 },
+    { "lat": -11.9399234, "lon": -76.9798650 },
+    { "lat": -11.9400155, "lon": -76.9799325 },
+    { "lat": -11.9402624, "lon": -76.9801132 },
+    { "lat": -11.9405552, "lon": -76.9803257 },
+    { "lat": -11.9409239, "lon": -76.9805882 },
+    { "lat": -11.9415343, "lon": -76.9810064 },
+    { "lat": -11.9423868, "lon": -76.9815953 },
+    { "lat": -11.9425707, "lon": -76.9817239 },
+    { "lat": -11.9432777, "lon": -76.9822186 },
+    { "lat": -11.9433600, "lon": -76.9822813 }
+  ],
+  "tags": {
+    "alt_name": "Avenida Proceres Del La Independencia",
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 370097587,
+  "bounds": {
+    "minlat": -11.9517085,
+    "minlon": -76.9875120,
+    "maxlat": -11.9385444,
+    "maxlon": -76.9725208
+  },
+  "geometry": [
+    { "lat": -11.9517085, "lon": -76.9875120 },
+    { "lat": -11.9514030, "lon": -76.9873142 },
+    { "lat": -11.9512712, "lon": -76.9872186 },
+    { "lat": -11.9508173, "lon": -76.9869027 },
+    { "lat": -11.9503870, "lon": -76.9866031 },
+    { "lat": -11.9490193, "lon": -76.9856519 },
+    { "lat": -11.9478171, "lon": -76.9848263 },
+    { "lat": -11.9477684, "lon": -76.9847928 },
+    { "lat": -11.9476922, "lon": -76.9847404 },
+    { "lat": -11.9466616, "lon": -76.9840149 },
+    { "lat": -11.9466048, "lon": -76.9839749 },
+    { "lat": -11.9463165, "lon": -76.9837719 },
+    { "lat": -11.9462909, "lon": -76.9837539 },
+    { "lat": -11.9456582, "lon": -76.9833332 },
+    { "lat": -11.9456287, "lon": -76.9833128 },
+    { "lat": -11.9446584, "lon": -76.9826418 },
+    { "lat": -11.9439197, "lon": -76.9821326 },
+    { "lat": -11.9436942, "lon": -76.9819771 },
+    { "lat": -11.9435850, "lon": -76.9819019 },
+    { "lat": -11.9435107, "lon": -76.9818452 },
+    { "lat": -11.9423126, "lon": -76.9810123 },
+    { "lat": -11.9411735, "lon": -76.9802204 },
+    { "lat": -11.9403452, "lon": -76.9796529 },
+    { "lat": -11.9403112, "lon": -76.9796271 },
+    { "lat": -11.9401608, "lon": -76.9794799 },
+    { "lat": -11.9399984, "lon": -76.9792952 },
+    { "lat": -11.9397652, "lon": -76.9789653 },
+    { "lat": -11.9396022, "lon": -76.9786093 },
+    { "lat": -11.9395176, "lon": -76.9783225 },
+    { "lat": -11.9390754, "lon": -76.9767605 },
+    { "lat": -11.9386783, "lon": -76.9752940 },
+    { "lat": -11.9385444, "lon": -76.9747189 },
+    { "lat": -11.9385508, "lon": -76.9745633 },
+    { "lat": -11.9385872, "lon": -76.9743794 },
+    { "lat": -11.9387540, "lon": -76.9739263 },
+    { "lat": -11.9389632, "lon": -76.9731748 },
+    { "lat": -11.9389534, "lon": -76.9729387 },
+    { "lat": -11.9389119, "lon": -76.9727689 },
+    { "lat": -11.9388719, "lon": -76.9726594 },
+    { "lat": -11.9388036, "lon": -76.9725208 }
+  ],
+  "tags": {
+    "alt_name": "Avenida Proceres Del La Independencia",
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 370097652,
+  "bounds": {
+    "minlat": -11.9380369,
+    "minlon": -76.9719441,
+    "maxlat": -11.9324754,
+    "maxlon": -76.9682765
+  },
+  "geometry": [
+    { "lat": -11.9380369, "lon": -76.9719441 },
+    { "lat": -11.9368719, "lon": -76.9711342 },
+    { "lat": -11.9363129, "lon": -76.9707537 },
+    { "lat": -11.9361117, "lon": -76.9706168 },
+    { "lat": -11.9357085, "lon": -76.9703423 },
+    { "lat": -11.9345505, "lon": -76.9695417 },
+    { "lat": -11.9333382, "lon": -76.9687062 },
+    { "lat": -11.9332464, "lon": -76.9686407 },
+    { "lat": -11.9328010, "lon": -76.9683607 },
+    { "lat": -11.9326973, "lon": -76.9683234 },
+    { "lat": -11.9324754, "lon": -76.9682765 }
+  ],
+  "tags": {
+    "alt_name": "Avenida Proceres Del La Independencia",
+    "highway": "secondary",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 427895159,
+  "bounds": {
+    "minlat": -12.0105658,
+    "minlon": -77.0164714,
+    "maxlat": -12.0093250,
+    "maxlon": -77.0145577
+  },
+  "geometry": [
+    { "lat": -12.0093250, "lon": -77.0164714 },
+    { "lat": -12.0096102, "lon": -77.0162050 },
+    { "lat": -12.0098883, "lon": -77.0158947 },
+    { "lat": -12.0100888, "lon": -77.0156710 },
+    { "lat": -12.0101474, "lon": -77.0156056 },
+    { "lat": -12.0101828, "lon": -77.0155553 },
+    { "lat": -12.0102044, "lon": -77.0155084 },
+    { "lat": -12.0102261, "lon": -77.0154342 },
+    { "lat": -12.0102312, "lon": -77.0153534 },
+    { "lat": -12.0102248, "lon": -77.0152622 },
+    { "lat": -12.0102133, "lon": -77.0151189 },
+    { "lat": -12.0102136, "lon": -77.0151029 },
+    { "lat": -12.0102149, "lon": -77.0150341 },
+    { "lat": -12.0102308, "lon": -77.0149430 },
+    { "lat": -12.0102689, "lon": -77.0148517 },
+    { "lat": -12.0103122, "lon": -77.0147725 },
+    { "lat": -12.0103590, "lon": -77.0147172 },
+    { "lat": -12.0105658, "lon": -77.0145577 }
+  ],
+  "tags": {
+    "highway": "tertiary",
+    "lanes": "2",
+    "maxspeed": "30",
+    "name": "Avenida Canto Grande",
+    "name:en": "Canto Grande Avenue",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 427895162,
+  "bounds": {
+    "minlat": -12.0169125,
+    "minlon": -77.0133076,
+    "maxlat": -12.0153960,
+    "maxlon": -77.0121388
+  },
+  "geometry": [
+    { "lat": -12.0153960, "lon": -77.0124550 },
+    { "lat": -12.0155645, "lon": -77.0122772 },
+    { "lat": -12.0156291, "lon": -77.0122206 },
+    { "lat": -12.0157022, "lon": -77.0121695 },
+    { "lat": -12.0157690, "lon": -77.0121462 },
+    { "lat": -12.0158140, "lon": -77.0121388 },
+    { "lat": -12.0158557, "lon": -77.0121403 },
+    { "lat": -12.0158804, "lon": -77.0121477 },
+    { "lat": -12.0159396, "lon": -77.0121654 },
+    { "lat": -12.0163562, "lon": -77.0124091 },
+    { "lat": -12.0164017, "lon": -77.0124614 },
+    { "lat": -12.0164356, "lon": -77.0125125 },
+    { "lat": -12.0164577, "lon": -77.0125869 },
+    { "lat": -12.0164593, "lon": -77.0126872 },
+    { "lat": -12.0164493, "lon": -77.0127590 },
+    { "lat": -12.0164516, "lon": -77.0128591 },
+    { "lat": -12.0164677, "lon": -77.0129430 },
+    { "lat": -12.0165012, "lon": -77.0130142 },
+    { "lat": -12.0165516, "lon": -77.0130780 },
+    { "lat": -12.0166122, "lon": -77.0131437 },
+    { "lat": -12.0166341, "lon": -77.0131596 },
+    { "lat": -12.0167132, "lon": -77.0132168 },
+    { "lat": -12.0167888, "lon": -77.0132595 },
+    { "lat": -12.0168228, "lon": -77.0132750 },
+    { "lat": -12.0169125, "lon": -77.0133076 }
+  ],
+  "tags": {
+    "highway": "tertiary",
+    "lanes": "2",
+    "maxspeed": "30",
+    "name": "Avenida Canto Grande",
+    "name:en": "Canto Grande Avenue",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 427895167,
+  "bounds": {
+    "minlat": -12.0027023,
+    "minlon": -77.0167369,
+    "maxlat": -11.9966708,
+    "maxlon": -77.0155497
+  },
+  "geometry": [
+    { "lat": -11.9966708, "lon": -77.0155497 },
+    { "lat": -11.9968908, "lon": -77.0156429 },
+    { "lat": -11.9969732, "lon": -77.0156769 },
+    { "lat": -11.9976258, "lon": -77.0159462 },
+    { "lat": -11.9976862, "lon": -77.0159695 },
+    { "lat": -11.9977920, "lon": -77.0160010 },
+    { "lat": -11.9979239, "lon": -77.0160177 },
+    { "lat": -11.9981555, "lon": -77.0160183 },
+    { "lat": -11.9981693, "lon": -77.0160181 },
+    { "lat": -11.9984389, "lon": -77.0160139 },
+    { "lat": -11.9986313, "lon": -77.0160108 },
+    { "lat": -11.9989543, "lon": -77.0159995 },
+    { "lat": -11.9989938, "lon": -77.0159982 },
+    { "lat": -11.9991664, "lon": -77.0159921 },
+    { "lat": -11.9996427, "lon": -77.0159768 },
+    { "lat": -11.9997378, "lon": -77.0159838 },
+    { "lat": -11.9998254, "lon": -77.0159922 },
+    { "lat": -11.9999644, "lon": -77.0160124 },
+    { "lat": -12.0002189, "lon": -77.0160698 },
+    { "lat": -12.0003045, "lon": -77.0160905 },
+    { "lat": -12.0008553, "lon": -77.0162208 },
+    { "lat": -12.0011724, "lon": -77.0163180 },
+    { "lat": -12.0015266, "lon": -77.0164159 },
+    { "lat": -12.0022789, "lon": -77.0166509 },
+    { "lat": -12.0024706, "lon": -77.0166979 },
+    { "lat": -12.0025851, "lon": -77.0167257 },
+    { "lat": -12.0027023, "lon": -77.0167369 }
+  ],
+  "tags": {
+    "highway": "tertiary",
+    "lanes": "2",
+    "maxspeed": "30",
+    "name": "Avenida Canto Grande",
+    "name:en": "Canto Grande Avenue",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 427895172,
+  "bounds": {
+    "minlat": -12.0253080,
+    "minlon": -77.0142148,
+    "maxlat": -12.0210796,
+    "maxlon": -77.0135811
+  },
+  "geometry": [
+    { "lat": -12.0210796, "lon": -77.0136283 },
+    { "lat": -12.0212040, "lon": -77.0136738 },
+    { "lat": -12.0213032, "lon": -77.0137207 },
+    { "lat": -12.0213960, "lon": -77.0137851 },
+    { "lat": -12.0214679, "lon": -77.0138558 },
+    { "lat": -12.0215787, "lon": -77.0139648 },
+    { "lat": -12.0216857, "lon": -77.0140542 },
+    { "lat": -12.0217138, "lon": -77.0140755 },
+    { "lat": -12.0218213, "lon": -77.0141569 },
+    { "lat": -12.0219052, "lon": -77.0141819 },
+    { "lat": -12.0220334, "lon": -77.0141993 },
+    { "lat": -12.0222367, "lon": -77.0142033 },
+    { "lat": -12.0225434, "lon": -77.0142108 },
+    { "lat": -12.0226296, "lon": -77.0142129 },
+    { "lat": -12.0227137, "lon": -77.0142138 },
+    { "lat": -12.0228045, "lon": -77.0142148 },
+    { "lat": -12.0229219, "lon": -77.0142125 },
+    { "lat": -12.0229918, "lon": -77.0142111 },
+    { "lat": -12.0231203, "lon": -77.0142093 },
+    { "lat": -12.0232373, "lon": -77.0141979 },
+    { "lat": -12.0233666, "lon": -77.0141765 },
+    { "lat": -12.0234808, "lon": -77.0141436 },
+    { "lat": -12.0235735, "lon": -77.0141071 },
+    { "lat": -12.0237632, "lon": -77.0140014 },
+    { "lat": -12.0238870, "lon": -77.0139324 },
+    { "lat": -12.0239233, "lon": -77.0139119 },
+    { "lat": -12.0241195, "lon": -77.0138189 },
+    { "lat": -12.0242373, "lon": -77.0137660 },
+    { "lat": -12.0243789, "lon": -77.0137133 },
+    { "lat": -12.0244359, "lon": -77.0136976 },
+    { "lat": -12.0245271, "lon": -77.0136725 },
+    { "lat": -12.0246616, "lon": -77.0136400 },
+    { "lat": -12.0247856, "lon": -77.0136218 },
+    { "lat": -12.0249414, "lon": -77.0136146 },
+    { "lat": -12.0250669, "lon": -77.0136102 },
+    { "lat": -12.0251368, "lon": -77.0136077 },
+    { "lat": -12.0252262, "lon": -77.0135962 },
+    { "lat": -12.0253080, "lon": -77.0135811 }
+  ],
+  "tags": {
+    "highway": "tertiary",
+    "lanes": "2",
+    "maxspeed": "30",
+    "name": "Avenida Canto Grande",
+    "name:en": "Canto Grande Avenue",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 427895176,
+  "bounds": {
+    "minlat": -12.0041222,
+    "minlon": -77.0167369,
+    "maxlat": -12.0027023,
+    "maxlon": -77.0158183
+  },
+  "geometry": [
+    { "lat": -12.0027023, "lon": -77.0167369 },
+    { "lat": -12.0029079, "lon": -77.0167155 },
+    { "lat": -12.0030839, "lon": -77.0166867 },
+    { "lat": -12.0032120, "lon": -77.0166589 },
+    { "lat": -12.0033402, "lon": -77.0166087 },
+    { "lat": -12.0035222, "lon": -77.0165202 },
+    { "lat": -12.0036364, "lon": -77.0164142 },
+    { "lat": -12.0037672, "lon": -77.0162776 },
+    { "lat": -12.0039959, "lon": -77.0159817 },
+    { "lat": -12.0041222, "lon": -77.0158183 }
+  ],
+  "tags": {
+    "highway": "tertiary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Avenida Canto Grande",
+    "name:en": "Canto Grande Avenue",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 428013392,
+  "bounds": {
+    "minlat": -12.0210796,
+    "minlon": -77.0140350,
+    "maxlat": -12.0169125,
+    "maxlon": -77.0133076
+  },
+  "geometry": [
+    { "lat": -12.0169125, "lon": -77.0133076 },
+    { "lat": -12.0181852, "lon": -77.0137873 },
+    { "lat": -12.0182414, "lon": -77.0138085 },
+    { "lat": -12.0183090, "lon": -77.0138331 },
+    { "lat": -12.0183433, "lon": -77.0138460 },
+    { "lat": -12.0184053, "lon": -77.0138678 },
+    { "lat": -12.0184760, "lon": -77.0138926 },
+    { "lat": -12.0186881, "lon": -77.0139670 },
+    { "lat": -12.0188151, "lon": -77.0140014 },
+    { "lat": -12.0189240, "lon": -77.0140233 },
+    { "lat": -12.0190462, "lon": -77.0140350 },
+    { "lat": -12.0191577, "lon": -77.0140325 },
+    { "lat": -12.0192503, "lon": -77.0140172 },
+    { "lat": -12.0193451, "lon": -77.0140014 },
+    { "lat": -12.0194971, "lon": -77.0139606 },
+    { "lat": -12.0200524, "lon": -77.0137954 },
+    { "lat": -12.0201292, "lon": -77.0137692 },
+    { "lat": -12.0205588, "lon": -77.0136289 },
+    { "lat": -12.0205982, "lon": -77.0136160 },
+    { "lat": -12.0206707, "lon": -77.0135970 },
+    { "lat": -12.0207015, "lon": -77.0135928 },
+    { "lat": -12.0207476, "lon": -77.0135909 },
+    { "lat": -12.0207969, "lon": -77.0135952 },
+    { "lat": -12.0210796, "lon": -77.0136283 }
+  ],
+  "tags": {
+    "highway": "tertiary",
+    "lanes": "2",
+    "maxspeed": "30",
+    "name": "Avenida Canto Grande",
+    "name:en": "Canto Grande Avenue",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 437888811,
+  "bounds": {
+    "minlat": -11.9905486,
+    "minlon": -77.0159039,
+    "maxlat": -11.9822083,
+    "maxlon": -77.0132495
+  },
+  "geometry": [
+    { "lat": -11.9822083, "lon": -77.0132495 },
+    { "lat": -11.9822596, "lon": -77.0133059 },
+    { "lat": -11.9823168, "lon": -77.0133516 },
+    { "lat": -11.9827070, "lon": -77.0135848 },
+    { "lat": -11.9830644, "lon": -77.0138297 },
+    { "lat": -11.9835012, "lon": -77.0141439 },
+    { "lat": -11.9838083, "lon": -77.0143493 },
+    { "lat": -11.9839342, "lon": -77.0144440 },
+    { "lat": -11.9840182, "lon": -77.0145209 },
+    { "lat": -11.9841101, "lon": -77.0146211 },
+    { "lat": -11.9844079, "lon": -77.0149973 },
+    { "lat": -11.9847277, "lon": -77.0154154 },
+    { "lat": -11.9848173, "lon": -77.0155024 },
+    { "lat": -11.9848886, "lon": -77.0155509 },
+    { "lat": -11.9849928, "lon": -77.0156099 },
+    { "lat": -11.9851038, "lon": -77.0156528 },
+    { "lat": -11.9860144, "lon": -77.0158578 },
+    { "lat": -11.9861463, "lon": -77.0158845 },
+    { "lat": -11.9862592, "lon": -77.0159026 },
+    { "lat": -11.9863509, "lon": -77.0159039 },
+    { "lat": -11.9867585, "lon": -77.0158550 },
+    { "lat": -11.9872134, "lon": -77.0158064 },
+    { "lat": -11.9886042, "lon": -77.0156496 },
+    { "lat": -11.9890996, "lon": -77.0155948 },
+    { "lat": -11.9895727, "lon": -77.0155281 },
+    { "lat": -11.9898339, "lon": -77.0154913 },
+    { "lat": -11.9898670, "lon": -77.0154866 },
+    { "lat": -11.9903065, "lon": -77.0154247 },
+    { "lat": -11.9905486, "lon": -77.0153906 }
+  ],
+  "tags": {
+    "highway": "tertiary",
+    "lit": "yes",
+    "name": "Avenida Antigua Canto Grande",
+    "oneway": "yes",
+    "sidewalk": "right",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 459042588,
+  "bounds": {
+    "minlat": -12.0153960,
+    "minlon": -77.0145577,
+    "maxlat": -12.0105658,
+    "maxlon": -77.0124550
+  },
+  "geometry": [
+    { "lat": -12.0105658, "lon": -77.0145577 },
+    { "lat": -12.0106601, "lon": -77.0145006 },
+    { "lat": -12.0108254, "lon": -77.0144033 },
+    { "lat": -12.0110120, "lon": -77.0142934 },
+    { "lat": -12.0111969, "lon": -77.0141845 },
+    { "lat": -12.0113611, "lon": -77.0140878 },
+    { "lat": -12.0113971, "lon": -77.0140637 },
+    { "lat": -12.0114151, "lon": -77.0140517 },
+    { "lat": -12.0114801, "lon": -77.0139956 },
+    { "lat": -12.0115317, "lon": -77.0139395 },
+    { "lat": -12.0115455, "lon": -77.0139245 },
+    { "lat": -12.0115720, "lon": -77.0138807 },
+    { "lat": -12.0117807, "lon": -77.0135357 },
+    { "lat": -12.0118186, "lon": -77.0134841 },
+    { "lat": -12.0118609, "lon": -77.0134417 },
+    { "lat": -12.0119870, "lon": -77.0133365 },
+    { "lat": -12.0121015, "lon": -77.0133412 },
+    { "lat": -12.0121421, "lon": -77.0133502 },
+    { "lat": -12.0122868, "lon": -77.0133751 },
+    { "lat": -12.0123754, "lon": -77.0133986 },
+    { "lat": -12.0124981, "lon": -77.0134425 },
+    { "lat": -12.0125470, "lon": -77.0134646 },
+    { "lat": -12.0126107, "lon": -77.0135050 },
+    { "lat": -12.0127085, "lon": -77.0135518 },
+    { "lat": -12.0127852, "lon": -77.0135710 },
+    { "lat": -12.0128852, "lon": -77.0135826 },
+    { "lat": -12.0129426, "lon": -77.0135833 },
+    { "lat": -12.0132398, "lon": -77.0135870 },
+    { "lat": -12.0136020, "lon": -77.0135943 },
+    { "lat": -12.0137375, "lon": -77.0135929 },
+    { "lat": -12.0139207, "lon": -77.0135911 },
+    { "lat": -12.0140779, "lon": -77.0135802 },
+    { "lat": -12.0141748, "lon": -77.0135560 },
+    { "lat": -12.0142189, "lon": -77.0135432 },
+    { "lat": -12.0142818, "lon": -77.0135250 },
+    { "lat": -12.0143587, "lon": -77.0134839 },
+    { "lat": -12.0144168, "lon": -77.0134112 },
+    { "lat": -12.0144335, "lon": -77.0133462 },
+    { "lat": -12.0144692, "lon": -77.0130014 },
+    { "lat": -12.0144978, "lon": -77.0128938 },
+    { "lat": -12.0145346, "lon": -77.0128012 },
+    { "lat": -12.0145656, "lon": -77.0127588 },
+    { "lat": -12.0146173, "lon": -77.0127186 },
+    { "lat": -12.0146885, "lon": -77.0126798 },
+    { "lat": -12.0147476, "lon": -77.0126584 },
+    { "lat": -12.0147858, "lon": -77.0126549 },
+    { "lat": -12.0148450, "lon": -77.0126495 },
+    { "lat": -12.0148759, "lon": -77.0126543 },
+    { "lat": -12.0149260, "lon": -77.0126621 },
+    { "lat": -12.0150134, "lon": -77.0126639 },
+    { "lat": -12.0151044, "lon": -77.0126438 },
+    { "lat": -12.0151972, "lon": -77.0126146 },
+    { "lat": -12.0152686, "lon": -77.0125745 },
+    { "lat": -12.0153095, "lon": -77.0125391 },
+    { "lat": -12.0153382, "lon": -77.0125143 },
+    { "lat": -12.0153960, "lon": -77.0124550 }
+  ],
+  "tags": {
+    "highway": "tertiary",
+    "lanes": "2",
+    "maxspeed": "30",
+    "name": "Avenida Canto Grande",
+    "name:en": "Canto Grande Avenue",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 549554417,
+  "bounds": {
+    "minlat": -11.9686466,
+    "minlon": -76.9939865,
+    "maxlat": -11.9683172,
+    "maxlon": -76.9937528
+  },
+  "geometry": [
+    { "lat": -11.9683172, "lon": -76.9937528 },
+    { "lat": -11.9685911, "lon": -76.9939489 },
+    { "lat": -11.9686466, "lon": -76.9939865 }
+  ],
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 549554420,
+  "bounds": {
+    "minlat": -11.9683172,
+    "minlon": -76.9937528,
+    "maxlat": -11.9679599,
+    "maxlon": -76.9934992
+  },
+  "geometry": [
+    { "lat": -11.9679599, "lon": -76.9934992 },
+    { "lat": -11.9681853, "lon": -76.9936592 },
+    { "lat": -11.9683172, "lon": -76.9937528 }
+  ],
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "40",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 549566268,
+  "bounds": {
+    "minlat": -11.9754655,
+    "minlon": -77.0012516,
+    "maxlat": -11.9745996,
+    "maxlon": -77.0000973
+  },
+  "geometry": [
+    { "lat": -11.9745996, "lon": -77.0000973 },
+    { "lat": -11.9747051, "lon": -77.0002343 },
+    { "lat": -11.9747690, "lon": -77.0003173 },
+    { "lat": -11.9748372, "lon": -77.0004048 },
+    { "lat": -11.9749168, "lon": -77.0005120 },
+    { "lat": -11.9754655, "lon": -77.0012516 }
+  ],
+  "tags": {
+    "bicycle": "no",
+    "foot": "no",
+    "highway": "primary",
+    "horse": "no",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 549566270,
+  "bounds": {
+    "minlat": -11.9745996,
+    "minlon": -77.0000973,
+    "maxlat": -11.9742649,
+    "maxlon": -76.9996242
+  },
+  "geometry": [
+    { "lat": -11.9742649, "lon": -76.9996242 },
+    { "lat": -11.9744323, "lon": -76.9998607 },
+    { "lat": -11.9745996, "lon": -77.0000973 }
+  ],
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "40",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 550165811,
+  "bounds": {
+    "minlat": -11.9596132,
+    "minlon": -76.9872872,
+    "maxlat": -11.9589164,
+    "maxlon": -76.9868317
+  },
+  "geometry": [
+    { "lat": -11.9596132, "lon": -76.9872872 },
+    { "lat": -11.9591287, "lon": -76.9869727 },
+    { "lat": -11.9590323, "lon": -76.9869101 },
+    { "lat": -11.9589164, "lon": -76.9868317 }
+  ],
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "sidewalk": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 550165812,
+  "bounds": {
+    "minlat": -11.9609658,
+    "minlon": -76.9882327,
+    "maxlat": -11.9596132,
+    "maxlon": -76.9872872
+  },
+  "geometry": [
+    { "lat": -11.9609658, "lon": -76.9882327 },
+    { "lat": -11.9607956, "lon": -76.9881122 },
+    { "lat": -11.9606679, "lon": -76.9880217 },
+    { "lat": -11.9598678, "lon": -76.9874551 },
+    { "lat": -11.9598015, "lon": -76.9874114 },
+    { "lat": -11.9596765, "lon": -76.9873289 },
+    { "lat": -11.9596132, "lon": -76.9872872 }
+  ],
+  "tags": {
+    "highway": "primary",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "40",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 550165813,
+  "bounds": {
+    "minlat": -11.9679599,
+    "minlon": -76.9934992,
+    "maxlat": -11.9606467,
+    "maxlon": -76.9882600
+  },
+  "geometry": [
+    { "lat": -11.9606467, "lon": -76.9882600 },
+    { "lat": -11.9608559, "lon": -76.9884076 },
+    { "lat": -11.9616901, "lon": -76.9889651 },
+    { "lat": -11.9625993, "lon": -76.9895929 },
+    { "lat": -11.9628589, "lon": -76.9897683 },
+    { "lat": -11.9637947, "lon": -76.9904382 },
+    { "lat": -11.9646098, "lon": -76.9910240 },
+    { "lat": -11.9649206, "lon": -76.9912400 },
+    { "lat": -11.9657002, "lon": -76.9918019 },
+    { "lat": -11.9664299, "lon": -76.9923550 },
+    { "lat": -11.9665778, "lon": -76.9924621 },
+    { "lat": -11.9668745, "lon": -76.9926770 },
+    { "lat": -11.9669667, "lon": -76.9927464 },
+    { "lat": -11.9675719, "lon": -76.9932210 },
+    { "lat": -11.9679599, "lon": -76.9934992 }
+  ],
+  "tags": {
+    "bicycle": "no",
+    "foot": "no",
+    "highway": "primary",
+    "horse": "no",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 550165814,
+  "bounds": {
+    "minlat": -11.9606467,
+    "minlon": -76.9882600,
+    "maxlat": -11.9595061,
+    "maxlon": -76.9874724
+  },
+  "geometry": [
+    { "lat": -11.9595061, "lon": -76.9874724 },
+    { "lat": -11.9595946, "lon": -76.9875346 },
+    { "lat": -11.9606467, "lon": -76.9882600 }
+  ],
+  "tags": {
+    "highway": "primary",
+    "lanes": "3",
+    "maxspeed": "40",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 550166690,
+  "bounds": {
+    "minlat": -11.9847089,
+    "minlon": -77.0068094,
+    "maxlat": -11.9758171,
+    "maxlon": -77.0017437
+  },
+  "geometry": [
+    { "lat": -11.9758171, "lon": -77.0017437 },
+    { "lat": -11.9763048, "lon": -77.0024129 },
+    { "lat": -11.9765169, "lon": -77.0027046 },
+    { "lat": -11.9767163, "lon": -77.0029409 },
+    { "lat": -11.9768485, "lon": -77.0030761 },
+    { "lat": -11.9769281, "lon": -77.0031458 },
+    { "lat": -11.9769796, "lon": -77.0031909 },
+    { "lat": -11.9771474, "lon": -77.0033288 },
+    { "lat": -11.9780085, "lon": -77.0039852 },
+    { "lat": -11.9785670, "lon": -77.0043854 },
+    { "lat": -11.9788479, "lon": -77.0045359 },
+    { "lat": -11.9792873, "lon": -77.0047509 },
+    { "lat": -11.9795063, "lon": -77.0048581 },
+    { "lat": -11.9796063, "lon": -77.0049044 },
+    { "lat": -11.9799821, "lon": -77.0050783 },
+    { "lat": -11.9802131, "lon": -77.0051852 },
+    { "lat": -11.9803929, "lon": -77.0052650 },
+    { "lat": -11.9805335, "lon": -77.0053131 },
+    { "lat": -11.9808380, "lon": -77.0054174 },
+    { "lat": -11.9811971, "lon": -77.0055405 },
+    { "lat": -11.9812305, "lon": -77.0055519 },
+    { "lat": -11.9824977, "lon": -77.0059962 },
+    { "lat": -11.9828955, "lon": -77.0061357 },
+    { "lat": -11.9829323, "lon": -77.0061486 },
+    { "lat": -11.9842061, "lon": -77.0066235 },
+    { "lat": -11.9845040, "lon": -77.0067337 },
+    { "lat": -11.9846125, "lon": -77.0067738 },
+    { "lat": -11.9847089, "lon": -77.0068094 }
+  ],
+  "tags": {
+    "bicycle": "no",
+    "foot": "no",
+    "highway": "primary",
+    "horse": "no",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 550166691,
+  "bounds": {
+    "minlat": -11.9758171,
+    "minlon": -77.0017437,
+    "maxlat": -11.9754655,
+    "maxlon": -77.0012516
+  },
+  "geometry": [
+    { "lat": -11.9754655, "lon": -77.0012516 },
+    { "lat": -11.9756206, "lon": -77.0014607 },
+    { "lat": -11.9758171, "lon": -77.0017437 }
+  ],
+  "tags": {
+    "highway": "primary",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 550166692,
+  "bounds": {
+    "minlat": -11.9763249,
+    "minlon": -77.0021747,
+    "maxlat": -11.9760160,
+    "maxlon": -77.0017608
+  },
+  "geometry": [
+    { "lat": -11.9763249, "lon": -77.0021747 },
+    { "lat": -11.9762358, "lon": -77.0020553 },
+    { "lat": -11.9761495, "lon": -77.0019396 },
+    { "lat": -11.9760160, "lon": -77.0017608 }
+  ],
+  "tags": {
+    "highway": "primary",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 550166693,
+  "bounds": {
+    "minlat": -11.9760160,
+    "minlon": -77.0017608,
+    "maxlat": -11.9722243,
+    "maxlon": -76.9965408
+  },
+  "geometry": [
+    { "lat": -11.9760160, "lon": -77.0017608 },
+    { "lat": -11.9759380, "lon": -77.0016563 },
+    { "lat": -11.9758615, "lon": -77.0015537 },
+    { "lat": -11.9752066, "lon": -77.0005699 },
+    { "lat": -11.9750849, "lon": -77.0003847 },
+    { "lat": -11.9750159, "lon": -77.0002806 },
+    { "lat": -11.9749419, "lon": -77.0001678 },
+    { "lat": -11.9748883, "lon": -77.0000934 },
+    { "lat": -11.9742220, "lon": -76.9991695 },
+    { "lat": -11.9734871, "lon": -76.9981960 },
+    { "lat": -11.9734384, "lon": -76.9981315 },
+    { "lat": -11.9727743, "lon": -76.9972239 },
+    { "lat": -11.9725603, "lon": -76.9969286 },
+    { "lat": -11.9724471, "lon": -76.9967860 },
+    { "lat": -11.9723932, "lon": -76.9967187 },
+    { "lat": -11.9723272, "lon": -76.9966487 },
+    { "lat": -11.9722945, "lon": -76.9966159 },
+    { "lat": -11.9722243, "lon": -76.9965408 }
+  ],
+  "tags": {
+    "bicycle": "no",
+    "foot": "no",
+    "highway": "primary",
+    "horse": "no",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "smoothness": "intermediate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 550422799,
+  "bounds": {
+    "minlat": -11.9687382,
+    "minlon": -76.9941817,
+    "maxlat": -11.9648345,
+    "maxlon": -76.9915247
+  },
+  "geometry": [
+    { "lat": -11.9648345, "lon": -76.9915247 },
+    { "lat": -11.9651397, "lon": -76.9917427 },
+    { "lat": -11.9655423, "lon": -76.9920188 },
+    { "lat": -11.9657769, "lon": -76.9921904 },
+    { "lat": -11.9666495, "lon": -76.9927951 },
+    { "lat": -11.9667538, "lon": -76.9928592 },
+    { "lat": -11.9668544, "lon": -76.9929175 },
+    { "lat": -11.9669239, "lon": -76.9929612 },
+    { "lat": -11.9673236, "lon": -76.9932463 },
+    { "lat": -11.9680762, "lon": -76.9937784 },
+    { "lat": -11.9682267, "lon": -76.9938898 },
+    { "lat": -11.9684307, "lon": -76.9940409 },
+    { "lat": -11.9685264, "lon": -76.9940882 },
+    { "lat": -11.9686376, "lon": -76.9941352 },
+    { "lat": -11.9687382, "lon": -76.9941817 }
+  ],
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "maxspeed": "40",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 642295878,
+  "bounds": {
+    "minlat": -12.0255024,
+    "minlon": -77.0136032,
+    "maxlat": -12.0253080,
+    "maxlon": -77.0135792
+  },
+  "geometry": [
+    { "lat": -12.0253080, "lon": -77.0135811 },
+    { "lat": -12.0253766, "lon": -77.0135792 },
+    { "lat": -12.0253981, "lon": -77.0135817 },
+    { "lat": -12.0254448, "lon": -77.0135871 },
+    { "lat": -12.0255024, "lon": -77.0136032 }
+  ],
+  "tags": {
+    "highway": "tertiary",
+    "lanes": "1",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Avenida Canto Grande",
+    "name:en": "Canto Grande Avenue",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 642295880,
+  "bounds": {
+    "minlat": -12.0254052,
+    "minlon": -77.0135811,
+    "maxlat": -12.0253080,
+    "maxlon": -77.0134053
+  },
+  "geometry": [
+    { "lat": -12.0254052, "lon": -77.0134053 },
+    { "lat": -12.0253896, "lon": -77.0134629 },
+    { "lat": -12.0253538, "lon": -77.0135255 },
+    { "lat": -12.0253080, "lon": -77.0135811 }
+  ],
+  "tags": {
+    "highway": "tertiary",
+    "lanes": "1",
+    "maxspeed": "30",
+    "name": "Avenida Canto Grande",
+    "name:en": "Canto Grande Avenue",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 998196814,
+  "bounds": {
+    "minlat": -11.9341515,
+    "minlon": -76.9696442,
+    "maxlat": -11.9338693,
+    "maxlon": -76.9694530
+  },
+  "geometry": [
+    { "lat": -11.9338693, "lon": -76.9694530 },
+    { "lat": -11.9341515, "lon": -76.9696442 }
+  ],
+  "tags": {
+    "alt_name": "Avenida Proceres Del La Independencia",
+    "highway": "primary",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1000083458,
+  "bounds": {
+    "minlat": -11.9345857,
+    "minlon": -76.9697189,
+    "maxlat": -11.9344817,
+    "maxlon": -76.9696431
+  },
+  "geometry": [
+    { "lat": -11.9345857, "lon": -76.9697189 },
+    { "lat": -11.9344817, "lon": -76.9696431 }
+  ],
+  "tags": {
+    "alt_name": "Avenida Proceres Del La Independencia",
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1000083459,
+  "bounds": {
+    "minlat": -11.9343637,
+    "minlon": -76.9698072,
+    "maxlat": -11.9341515,
+    "maxlon": -76.9696442
+  },
+  "geometry": [
+    { "lat": -11.9341515, "lon": -76.9696442 },
+    { "lat": -11.9343637, "lon": -76.9698072 }
+  ],
+  "tags": {
+    "alt_name": "Avenida Proceres Del La Independencia",
+    "highway": "primary",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1138468227,
+  "bounds": {
+    "minlat": -11.9406323,
+    "minlon": -76.9810242,
+    "maxlat": -11.9402512,
+    "maxlon": -76.9807591
+  },
+  "geometry": [
+    { "lat": -11.9406323, "lon": -76.9810242 },
+    { "lat": -11.9402512, "lon": -76.9807591 }
+  ],
+  "tags": {
+    "highway": "residential",
+    "name": "Canto Grande",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1152783457,
+  "bounds": {
+    "minlat": -11.9588240,
+    "minlon": -76.9871016,
+    "maxlat": -11.9575250,
+    "maxlon": -76.9860787
+  },
+  "geometry": [
+    { "lat": -11.9575250, "lon": -76.9860787 },
+    { "lat": -11.9576290, "lon": -76.9861969 },
+    { "lat": -11.9577067, "lon": -76.9862752 },
+    { "lat": -11.9578179, "lon": -76.9863874 },
+    { "lat": -11.9582076, "lon": -76.9866650 },
+    { "lat": -11.9584661, "lon": -76.9868555 },
+    { "lat": -11.9586412, "lon": -76.9869832 },
+    { "lat": -11.9588240, "lon": -76.9871016 }
+  ],
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "maxspeed": "40",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1154089782,
+  "bounds": {
+    "minlat": -11.9510122,
+    "minlon": -76.9874300,
+    "maxlat": -11.9433600,
+    "maxlon": -76.9822813
+  },
+  "geometry": [
+    { "lat": -11.9433600, "lon": -76.9822813 },
+    { "lat": -11.9445555, "lon": -76.9830962 },
+    { "lat": -11.9453806, "lon": -76.9836790 },
+    { "lat": -11.9454036, "lon": -76.9836952 },
+    { "lat": -11.9461331, "lon": -76.9841917 },
+    { "lat": -11.9461941, "lon": -76.9842332 },
+    { "lat": -11.9464398, "lon": -76.9844013 },
+    { "lat": -11.9464626, "lon": -76.9844159 },
+    { "lat": -11.9473948, "lon": -76.9850836 },
+    { "lat": -11.9474385, "lon": -76.9851149 },
+    { "lat": -11.9475231, "lon": -76.9851686 },
+    { "lat": -11.9478481, "lon": -76.9853861 },
+    { "lat": -11.9485704, "lon": -76.9858867 },
+    { "lat": -11.9495757, "lon": -76.9865672 },
+    { "lat": -11.9505650, "lon": -76.9872687 },
+    { "lat": -11.9507337, "lon": -76.9873883 },
+    { "lat": -11.9507931, "lon": -76.9874084 },
+    { "lat": -11.9510122, "lon": -76.9874300 }
+  ],
+  "tags": {
+    "alt_name": "Avenida Proceres Del La Independencia",
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1342287352,
+  "bounds": {
+    "minlat": -11.9846831,
+    "minlon": -77.0068775,
+    "maxlat": -11.9845886,
+    "maxlon": -77.0068392
+  },
+  "geometry": [
+    { "lat": -11.9845886, "lon": -77.0068392 },
+    { "lat": -11.9846831, "lon": -77.0068775 }
+  ],
+  "tags": {
+    "foot": "no",
+    "highway": "secondary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1342287359,
+  "bounds": {
+    "minlat": -11.9847798,
+    "minlon": -77.0065774,
+    "maxlat": -11.9846829,
+    "maxlon": -77.0065441
+  },
+  "geometry": [
+    { "lat": -11.9847798, "lon": -77.0065774 },
+    { "lat": -11.9846829, "lon": -77.0065441 }
+  ],
+  "tags": {
+    "alt_name": "Avenida Proceres de la Independencia",
+    "foot": "no",
+    "highway": "primary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "sidewalk": "right",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1537363502,
+  "bounds": {
+    "minlat": -11.9388445,
+    "minlon": -76.9733611,
+    "maxlat": -11.9387908,
+    "maxlon": -76.9731751
+  },
+  "geometry": [
+    { "lat": -11.9387908, "lon": -76.9733611 },
+    { "lat": -11.9388445, "lon": -76.9731751 }
+  ],
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Avenida Fernando Wiesse",
+    "name:en": "Fernando Wiesse Avenue",
+    "name:es": "Avenida Fernando Wiesse",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+}
+
+  ]
+}

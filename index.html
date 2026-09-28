@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#183e3b">
+  <title>SJL 3D | Territorio y comunidad</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="vendor/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <script type="importmap">{"imports":{"three":"./vendor/three.module.js","three/addons/controls/OrbitControls.js":"./vendor/OrbitControls.js"}}</script>
+  <script src="vendor/lucide.min.js" defer></script>
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <a href="./" class="brand" aria-label="SJL 3D, inicio"><span class="brand-mark"><i data-lucide="blocks"></i></span><span><b>SJL <em>3D</em></b><small>TERRITORIO Y COMUNIDAD</small></span></a>
+    <div class="top-location"><span class="live-dot"></span>San Juan de Lurigancho <span>/ Lima, Perú</span></div>
+    <div class="top-actions"><span class="demo-label">Prototipo local</span><label class="role-picker"><i data-lucide="contact-round"></i><select id="roleSelect" aria-label="Perfil de demostración"><option value="citizen">Ciudadano</option><option value="technician">Técnico de zona</option><option value="admin">Administrador municipal</option></select></label></div>
+  </header>
+  <main class="workspace" id="workspace">
+    <aside class="left-panel" id="sidebar">
+      <div class="panel-heading"><div class="eyebrow">OBSERVATORIO CIUDADANO</div><h1>El territorio <br>que compartimos.</h1><div class="territory-name"><i data-lucide="map-pin"></i>Wiesse y Canto Grande</div></div>
+      <div class="metric-strip" aria-label="Estado de incidencias"><button data-status="open"><strong id="openCount">0</strong><span>Reportados</span></button><button data-status="progress"><strong id="progressCount">0</strong><span>En atención</span></button><button data-status="resolved"><strong id="resolvedCount">0</strong><span>Resueltos</span></button></div>
+      <div class="section-line"><h2>INCIDENCIAS</h2><button class="text-button" id="seeAll">Todas</button></div>
+      <div class="layer-list">
+        <label class="layer-item"><input type="checkbox" value="access" checked><i data-lucide="accessibility" class="access"></i><span>Accesibilidad</span><small>0</small></label>
+        <label class="layer-item"><input type="checkbox" value="safety" checked><i data-lucide="traffic-cone" class="safety"></i><span>Seguridad vial</span><small>0</small></label>
+        <label class="layer-item"><input type="checkbox" value="public" checked><i data-lucide="trees" class="public"></i><span>Espacio público</span><small>0</small></label>
+      </div>
+      <div class="section-line reports-heading"><h2 id="listTitle">REPORTES DEL TERRITORIO</h2><span id="listCount"></span></div>
+      <div class="report-list" id="reportList" aria-live="polite"></div>
+      <div class="sidebar-bottom"><div class="ods-tags"><span>ODS 10</span><span>ODS 11</span><b>Una ciudad para todos</b></div><div class="storage-note"><i data-lucide="hard-drive"></i>Reportes guardados en este navegador</div><button class="text-button" id="exportReports"><i data-lucide="download"></i>Exportar reportes</button></div>
+    </aside>
+    <section class="map-panel" id="mapPanel" aria-label="Mapa geográfico tridimensional de SJL">
+      <div id="scene" aria-label="Mapa 3D de Wiesse, Canto Grande y barrios próximos"></div>
+      <div id="mapLabels" class="map-labels"></div>
+      <div class="map-header">
+        <button class="icon-button white" id="toggleSidebar" title="Mostrar u ocultar reportes" aria-label="Mostrar u ocultar reportes" aria-expanded="true"><i data-lucide="panel-left"></i></button>
+        <div class="map-search"><i data-lucide="search"></i><input id="placeSearch" list="placesList" placeholder="Buscar avenida o estación" aria-label="Buscar avenida o estación"><datalist id="placesList"></datalist><button id="searchGo" class="icon-button" title="Ir a ubicación" aria-label="Ir a ubicación"><i data-lucide="arrow-right"></i></button></div>
+        <button class="primary-button" id="newReport"><i data-lucide="plus"></i><span>Reportar incidencia</span></button>
+      </div>
+      <div class="territory-caption"><span class="eyebrow">SAN JUAN DE LURIGANCHO</span><h2>Wiesse <span>/</span> Canto Grande</h2><div><span class="live-dot"></span><span id="mapSummary">Cargando cartografía</span></div></div>
+      <div class="metro-controls" aria-label="Línea 1 del Metro">
+        <div class="metro-selector"><b>L1</b><select id="metroStation" aria-label="Estación del Metro"></select><button class="icon-button" id="metroStationGo" title="Ver estación" aria-label="Ver estación"><i data-lucide="locate-fixed"></i></button></div>
+        <div class="metro-actions"><button id="followTrain" aria-pressed="false" title="Seguir el tren" aria-label="Seguir el tren"><i data-lucide="train-front"></i><span>Seguir tren</span></button><button id="nextTrain" title="Cambiar al siguiente tren" aria-label="Cambiar al siguiente tren"><i data-lucide="skip-forward"></i></button><button id="metroPause" title="Pausar trenes" aria-label="Pausar trenes" aria-pressed="false"><i data-lucide="pause"></i></button><small id="metroLive">Simulación</small></div>
+      </div>
+      <div class="map-tools" aria-label="Controles del mapa">
+        <button class="icon-button white" id="resetView" title="Volver a la vista inicial" aria-label="Volver a la vista inicial"><i data-lucide="house"></i></button>
+        <button class="icon-button white" id="toggleView" title="Ver todo el corredor" aria-label="Ver todo el corredor"><i data-lucide="scan"></i></button>
+        <button class="icon-button white" id="zoomIn" title="Acercar" aria-label="Acercar"><i data-lucide="plus"></i></button>
+        <button class="icon-button white" id="zoomOut" title="Alejar" aria-label="Alejar"><i data-lucide="minus"></i></button>
+        <button class="icon-button white" id="northView" title="Orientar al norte" aria-label="Orientar al norte"><span class="north-icon">N</span><i data-lucide="navigation-2"></i></button>
+        <button class="icon-button white" id="fullscreen" title="Pantalla completa" aria-label="Pantalla completa"><i data-lucide="maximize"></i></button>
+      </div>
+      <div class="map-settings"><label><input id="showBuildings" type="checkbox" checked>Edificios</label><label><input id="showEstimated" type="checkbox" checked>Volumen estimado</label><label><input id="showCorridor" type="checkbox" checked>Corredor</label><label><input id="showLabels" type="checkbox" checked>Etiquetas</label><label><input id="showMetro" type="checkbox" checked>Metro L1</label></div>
+      <div class="map-minimap"><div><b>EL CORREDOR</b><span>N ↑</span></div><canvas id="minimap" width="360" height="240" tabindex="0" role="img" aria-label="Minimapa del corredor, selecciona una zona"></canvas><span class="scale-label" id="scaleLabel">2 km</span></div>
+      <div class="tour-controls"><button id="tourButton" title="Iniciar o pausar recorrido aéreo" aria-label="Iniciar recorrido aéreo" aria-pressed="false"><i data-lucide="play"></i><span>Recorrido aéreo</span></button><span id="cameraAltitude">—</span><span class="tour-divider"></span><button id="captureView" title="Descargar imagen del mapa" aria-label="Descargar imagen del mapa"><i data-lucide="camera"></i></button></div>
+      <div class="placement-banner" id="placementBanner" hidden><i data-lucide="map-pin"></i><span>Selecciona el punto de la incidencia</span><button id="cancelPlacement" class="icon-button" title="Cancelar ubicación" aria-label="Cancelar ubicación"><i data-lucide="x"></i></button></div>
+      <div class="map-attribution"><a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">© OpenStreetMap</a><span>Relieve: Mapzen / USGS</span><button id="aboutMap">Fuentes y precisión</button></div>
+      <div class="scene-loader" id="sceneLoader"><span class="loader-ring"></span><strong>Construyendo el territorio</strong><span id="loadingText">Cartografía y relieve de SJL</span></div>
+      <aside class="detail-panel closed" id="detailPanel" aria-label="Detalle de la incidencia">
+        <div class="detail-top"><span id="detailId">INCIDENCIA</span><button class="icon-button" id="closeDetail" title="Cerrar detalle" aria-label="Cerrar detalle"><i data-lucide="x"></i></button></div>
+        <span class="detail-category" id="detailCategory"></span><h3 id="detailTitle"></h3><p id="detailDescription"></p>
+        <div class="detail-meta"><span id="detailStatus" class="status-chip"></span><span id="detailDate"></span></div>
+        <div class="detail-place"><i data-lucide="map-pin"></i><div><b id="detailStreet"></b><small id="detailCoordinates"></small></div></div>
+        <div class="detail-author"><span id="detailAvatar" class="author-avatar"></span><span id="detailReporter"></span><small id="detailOrigin"></small></div>
+        <button class="detail-action" id="detailAction"></button>
+        <ol id="detailHistory" class="detail-history"></ol>
+      </aside>
+    </section>
+  </main>
+  <dialog class="app-dialog" id="reportModal">
+    <form id="reportForm"><div class="modal-head"><div><span class="eyebrow">PARTICIPACIÓN CIUDADANA</span><h2>Nueva incidencia</h2></div><button class="icon-button" id="modalClose" type="button" aria-label="Cerrar"><i data-lucide="x"></i></button></div>
+      <div class="location-confirmed"><i data-lucide="map-pin-check"></i><div><b id="issuePlace"></b><small id="issueCoordinates"></small></div><button class="text-button" id="changeLocation" type="button">Cambiar</button></div>
+      <label for="issueCategory" class="field-label">Categoría</label><select class="form-select" id="issueCategory" required><option value="access">Accesibilidad</option><option value="safety">Seguridad vial</option><option value="public">Espacio público</option></select>
+      <label for="issueTitle" class="field-label">Título</label><input class="form-control" id="issueTitle" maxlength="90" minlength="5" placeholder="Ej. Vereda dañada junto al cruce" required>
+      <label for="issueDescription" class="field-label">Descripción</label><textarea class="form-control" id="issueDescription" rows="3" maxlength="600" minlength="10" required></textarea>
+      <div class="form-note">Registro local de demostración. No incluyas datos personales.</div>
+      <div class="modal-actions"><button class="secondary-button" type="button" id="cancelReport">Cancelar</button><button class="primary-button" type="submit"><i data-lucide="send"></i>Registrar reporte</button></div>
+    </form>
+  </dialog>
+  <dialog class="app-dialog" id="aboutModal"><div class="about-content"><div class="modal-head"><h2>Fuentes y precisión</h2><button class="icon-button" id="closeAbout" aria-label="Cerrar fuentes"><i data-lucide="x"></i></button></div><p>Calles, huellas de edificios y estaciones: <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap, licencia ODbL</a>. El mapa incluye el corredor Wiesse–Canto Grande y barrios cercanos; no representa todo el distrito.</p><p>Relieve: <a href="https://registry.opendata.aws/terrain-tiles/" target="_blank" rel="noopener">Mapzen Terrain Tiles</a>, datos globales SRTM/GMTED2010 de USGS. Elevaciones remuestreadas; no aptas para mediciones de ingeniería.</p><p>Las alturas no registradas, fachadas, azoteas, vegetación y tráfico son interpretaciones visuales. No es fotogrametría ni una reproducción exacta de cada vivienda.</p><p>Metro L1: traza OSM entre Bayóvar y Pirámide del Sol; <a href="https://www.lineauno.pe/horarios/" target="_blank" rel="noopener">nombres y orden de estaciones</a> contrastados con la Línea 1. Estaciones, accesos y paraderos son modelos interpretativos. Trenes y peatones son una simulación, no información en tiempo real.</p><dl id="dataStats"></dl><p>Los reportes iniciales son ejemplos ficticios. Los perfiles no son cuentas autenticadas. Esta versión guarda en el navegador, no en MySQL ni en una municipalidad.</p><a href="README.md" target="_blank">Documentación del prototipo</a></div></dialog>
+  <div class="app-toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
